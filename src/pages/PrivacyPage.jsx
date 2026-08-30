@@ -1,0 +1,60 @@
+import React from 'react';
+import SecondaryNav from '../components/common/SecondaryNav';
+import DisclaimerBanner from '../components/common/DisclaimerBanner';
+import { Shield, Lock, Eye } from 'lucide-react';
+
+export default function PrivacyPage() {
+  return (
+    <div className="min-h-screen bg-bg-dark text-white pb-16">
+      <SecondaryNav />
+
+      <div className="py-12 bg-gradient-to-b from-bg-secondary via-[#0D0D0D] to-bg-dark border-b border-neutral-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-3xl sm:text-4xl font-display font-black text-white">
+            Privacy <span className="gold-gradient-text">Policy</span>
+          </h1>
+          <p className="text-xs sm:text-sm text-neutral-400 mt-2">
+            Last Updated: August 2026 • AllyonoApp.app
+          </p>
+        </div>
+      </div>
+
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-6 text-sm text-neutral-300 leading-relaxed">
+        
+        <div className="p-6 sm:p-8 rounded-2xl bg-[#111111] border border-neutral-800 space-y-4">
+          <h2 className="font-display font-bold text-lg text-white">1. Information We Collect</h2>
+          <p>
+            AllyonoApp.app operates as an informational content platform. We do not require account registration or collect sensitive personal identifiers (such as bank details, government IDs, or payment credentials).
+          </p>
+          <p>
+            When you visit our website, standard non-identifying telemetry (such as browser user-agent, screen resolution, referring URL, and page timestamps) may be automatically logged for diagnostic and performance optimization purposes.
+          </p>
+        </div>
+
+        <div className="p-6 sm:p-8 rounded-2xl bg-[#111111] border border-neutral-800 space-y-4">
+          <h2 className="font-display font-bold text-lg text-white">2. Cookies & Analytics</h2>
+          <p>
+            We may use lightweight cookies and privacy-first analytics to measure traffic patterns and improve reader navigation. We do not sell, rent, or trade visitor data to third-party data brokers.
+          </p>
+        </div>
+
+        <div className="p-6 sm:p-8 rounded-2xl bg-[#111111] border border-neutral-800 space-y-4">
+          <h2 className="font-display font-bold text-lg text-white">3. Third-Party Links & External Software</h2>
+          <p>
+            Our website contains informational references to third-party mobile applications and external websites. Once you navigate away from AllyonoApp.app, the privacy policies of those external entities govern their data collection practices. We strongly urge you to review the privacy notices of any third-party app before granting permissions.
+          </p>
+        </div>
+
+        <div className="p-6 sm:p-8 rounded-2xl bg-[#111111] border border-neutral-800 space-y-4">
+          <h2 className="font-display font-bold text-lg text-white">4. Contacting Our Data Officer</h2>
+          <p>
+            If you have questions or inquiries regarding our privacy standards, contact us at: <a href="mailto:support@allyonoapp.app" className="text-gold font-bold">support@allyonoapp.app</a>.
+          </p>
+        </div>
+
+        <DisclaimerBanner compact={true} />
+
+      </div>
+    </div>
+  );
+}

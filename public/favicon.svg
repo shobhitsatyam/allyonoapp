@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD35A" />
+      <stop offset="50%" stop-color="#F5B928" />
+      <stop offset="100%" stop-color="#D4900C" />
+    </linearGradient>
+    <linearGradient id="darkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1E1E" />
+      <stop offset="100%" stop-color="#050505" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <!-- Shield/Diamond background -->
+  <rect x="6" y="6" width="88" height="88" rx="22" fill="url(#darkGrad)" stroke="url(#goldGrad)" stroke-width="4" />
+  <!-- Golden inner shape -->
+  <path d="M50 18 L76 34 V66 L50 82 L24 66 V34 Z" fill="none" stroke="url(#goldGrad)" stroke-width="2" opacity="0.6" />
+  <!-- Center 'A' & Gaming Dice Element -->
+  <circle cx="50" cy="50" r="18" fill="url(#goldGrad)" filter="url(#glow)" />
+  <path d="M44 58 L50 42 L56 58 M46 54 H54" stroke="#050505" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="50" cy="28" r="3" fill="#FFD35A" />
+</svg>
