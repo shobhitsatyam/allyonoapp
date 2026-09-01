@@ -1,5 +1,4 @@
 import React, { useState, useMemo } from 'react';
-import Hero from '../components/home/Hero';
 import SecondaryNav from '../components/common/SecondaryNav';
 import CategoryTabs from '../components/home/CategoryTabs';
 import SearchAndFilter from '../components/home/SearchAndFilter';
@@ -9,7 +8,7 @@ import FeaturedGuides from '../components/home/FeaturedGuides';
 import FeaturedBlog from '../components/home/FeaturedBlog';
 import DisclaimerBanner from '../components/common/DisclaimerBanner';
 import { APPS_DATA } from '../data/apps';
-import { LayoutGrid, Sparkles, Filter } from 'lucide-react';
+import { Sparkles, Filter } from 'lucide-react';
 
 export default function HomePage({ onOpenTelegram }) {
   const [activeCategory, setActiveCategory] = useState('all');
@@ -46,9 +45,6 @@ export default function HomePage({ onOpenTelegram }) {
     <div className="min-h-screen bg-bg-dark text-white">
       {/* Secondary Navigation */}
       <SecondaryNav />
-
-      {/* Hero Section */}
-      <Hero onOpenTelegram={onOpenTelegram} />
 
       {/* Main App Directory Section (Matching Reference Visual Layout) */}
       <section id="app-directory" className="py-12 bg-[#0A0A0A] border-t border-neutral-800">
