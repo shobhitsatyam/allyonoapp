@@ -51,7 +51,7 @@ export default function AllAppsPage() {
             All Gaming <span className="gold-gradient-text">Applications</span>
           </h1>
           <p className="text-sm sm:text-base text-neutral-400 max-w-2xl mx-auto mt-2">
-            Browse our comprehensive index of 95+ gaming applications with detailed safety ratings, version histories, and specifications.
+            Browse our comprehensive index of verified gaming applications with detailed safety ratings, version histories, and specifications.
           </p>
         </div>
       </div>

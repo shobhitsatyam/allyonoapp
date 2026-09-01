@@ -70,27 +70,29 @@ export default function Header({ onOpenTelegram }) {
 
           {/* CTA Button: Join Community / Telegram */}
           <div className="hidden sm:flex items-center gap-3">
-            <button
-              onClick={onOpenTelegram}
-              type="button"
+            <a
+              href="https://t.me/AllYonowebsit"
+              target="_blank"
+              rel="noopener noreferrer"
               id="header-telegram-btn"
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gold text-gold hover:bg-gold hover:text-black transition-all duration-300 font-bold text-xs xl:text-sm tracking-wider uppercase shadow-gold-sm hover:shadow-gold-md active:scale-95"
             >
               <Send className="w-4 h-4" />
               <span>JOIN TELEGRAM</span>
-            </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
           <div className="flex sm:hidden items-center gap-2">
-            <button
-              onClick={onOpenTelegram}
-              type="button"
+            <a
+              href="https://t.me/AllYonowebsit"
+              target="_blank"
+              rel="noopener noreferrer"
               className="p-2 text-gold border border-gold/40 rounded-lg hover:bg-gold/10"
               aria-label="Telegram Community"
             >
               <Send className="w-4 h-4" />
-            </button>
+            </a>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               type="button"
@@ -126,17 +128,16 @@ export default function Header({ onOpenTelegram }) {
             ))}
           </nav>
           <div className="mt-4 pt-4 border-t border-neutral-800 flex flex-col gap-2">
-            <button
-              onClick={() => {
-                setMobileMenuOpen(false);
-                onOpenTelegram();
-              }}
-              type="button"
+            <a
+              href="https://t.me/AllYonowebsit"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setMobileMenuOpen(false)}
               className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-gold-gradient text-black font-bold text-sm tracking-wide shadow-gold-sm active:scale-98"
             >
               <Send className="w-4 h-4" />
               <span>JOIN TELEGRAM CHANNEL</span>
-            </button>
+            </a>
           </div>
         </div>
       )}

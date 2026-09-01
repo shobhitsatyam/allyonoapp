@@ -57,6 +57,17 @@ export default function Footer({ onOpenTelegram }) {
           <p className="text-neutral-300 text-sm leading-relaxed">
             Our community is filled with players who share strategies, tips, and encouragement. Whether you want advice on improving your skills or you’d just like to connect, you’ll find plenty of helpful voices ready to welcome you.
           </p>
+          <div className="pt-2">
+            <a
+              href="https://t.me/AllYonowebsit"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gold-gradient hover:bg-gold-gradient-hover text-black font-extrabold text-xs uppercase tracking-wider shadow-gold-sm hover:scale-105 transition-all"
+            >
+              <Send className="w-4 h-4" />
+              <span>Join Telegram Channel</span>
+            </a>
+          </div>
         </section>
 
         {/* Disclaimer & Important Alert Section */}

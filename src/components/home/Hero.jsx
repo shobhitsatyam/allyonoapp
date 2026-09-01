@@ -186,7 +186,7 @@ export default function Hero({ onOpenTelegram }) {
                         href="#app-directory"
                         className="w-full block py-2 rounded-xl bg-gold text-black font-bold text-xs tracking-wider uppercase text-center shadow-gold-sm"
                       >
-                        EXPLORE 95+ APPS
+                        EXPLORE ALL APPS
                       </a>
                     </div>
 

@@ -59,9 +59,14 @@ export default function ContactPage({ onOpenTelegram }) {
                   <Send className="w-5 h-5 text-gold shrink-0 mt-0.5" />
                   <div>
                     <div className="text-neutral-500 font-medium">Telegram Channel</div>
-                    <button onClick={onOpenTelegram} className="text-gold hover:underline font-bold text-left">
-                      @allyonoapp_official
-                    </button>
+                    <a
+                      href="https://t.me/AllYonowebsit"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gold hover:underline font-bold text-left block"
+                    >
+                      @AllYonowebsit
+                    </a>
                   </div>
                 </div>
 
@@ -86,12 +91,14 @@ export default function ContactPage({ onOpenTelegram }) {
                 <h3 className="font-bold text-sm text-white">Join Community Telegram</h3>
                 <p className="text-xs text-neutral-400 mt-0.5">Instant alerts & release updates</p>
               </div>
-              <button
-                onClick={onOpenTelegram}
-                className="px-4 py-2 rounded-xl bg-gold text-black font-extrabold text-xs uppercase shadow-gold-sm hover:scale-105 transition-all"
+              <a
+                href="https://t.me/AllYonowebsit"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-xl bg-gold text-black font-extrabold text-xs uppercase shadow-gold-sm hover:scale-105 transition-all text-center inline-block"
               >
                 Join
-              </button>
+              </a>
             </div>
 
           </div>

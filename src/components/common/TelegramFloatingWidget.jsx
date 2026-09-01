@@ -2,7 +2,7 @@ import React from 'react';
 import { TrendingUp } from 'lucide-react';
 
 export default function TelegramFloatingWidget() {
-  const telegramUrl = "https://t.me/+omGsOTOlwsY0NWRl";
+  const telegramUrl = "https://t.me/AllYonowebsit";
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-center gap-2 select-none">

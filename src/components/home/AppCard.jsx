@@ -13,7 +13,7 @@ export default function AppCard({ app, index = null, viewMode = 'list' }) {
     return (
       <div className="group relative flex flex-col justify-between rounded-2xl bg-[#111111] border border-neutral-800/80 hover:border-gold/50 hover:shadow-gold-sm transition-all duration-300 p-5">
         {rankNum && (
-          <div className="absolute -top-2.5 -left-2.5 w-6 h-6 rounded-full bg-[#E52B2B] text-white font-black text-xs flex items-center justify-center shadow-md z-10 border border-white/40">
+          <div className="absolute -top-2.5 -left-2.5 min-w-6 h-6 px-1.5 rounded-full bg-[#E52B2B] text-white font-black text-xs flex items-center justify-center shadow-md z-10 border border-white/40">
             {rankNum}
           </div>
         )}
@@ -93,7 +93,7 @@ export default function AppCard({ app, index = null, viewMode = 'list' }) {
       
       {/* Top Left Red Rank Badge */}
       {rankNum && (
-        <div className="absolute -top-2.5 -left-2.5 w-6 h-6 rounded-full bg-[#E52B2B] text-white font-black text-xs flex items-center justify-center shadow-md z-10 border border-white/60">
+        <div className="absolute -top-2.5 -left-2.5 min-w-6 h-6 px-1.5 rounded-full bg-[#E52B2B] text-white font-black text-xs flex items-center justify-center shadow-md z-10 border border-white/60">
           {rankNum}
         </div>
       )}
