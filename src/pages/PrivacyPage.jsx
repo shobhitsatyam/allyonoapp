@@ -1,4 +1,5 @@
 import React from 'react';
+import SeoHead from '../components/common/SeoHead';
 import SecondaryNav from '../components/common/SecondaryNav';
 import DisclaimerBanner from '../components/common/DisclaimerBanner';
 import { Shield, Lock, Eye } from 'lucide-react';
@@ -6,6 +7,11 @@ import { Shield, Lock, Eye } from 'lucide-react';
 export default function PrivacyPage() {
   return (
     <div className="min-h-screen bg-bg-dark text-white pb-16">
+      <SeoHead
+        title="Privacy Policy | AllyonoApp"
+        description="Read the Privacy Policy for AllyonoApp explaining data protection, analytics, and privacy commitments."
+        canonicalUrl="https://allyonoapp.app/privacy"
+      />
       <SecondaryNav />
 
       <div className="py-12 bg-gradient-to-b from-bg-secondary via-[#0D0D0D] to-bg-dark border-b border-neutral-800">

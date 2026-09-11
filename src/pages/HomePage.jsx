@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react';
+import SeoHead from '../components/common/SeoHead';
 import SecondaryNav from '../components/common/SecondaryNav';
 import CategoryTabs from '../components/home/CategoryTabs';
 import SearchAndFilter from '../components/home/SearchAndFilter';
@@ -15,6 +16,31 @@ export default function HomePage({ onOpenTelegram }) {
   const [searchQuery, setSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState('serial');
   const [viewMode, setViewMode] = useState('list');
+
+  const homepageSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://allyonoapp.app/#website",
+        "url": "https://allyonoapp.app/",
+        "name": "AllyonoApp",
+        "description": "Explore Yono games, gaming app information, new app updates and useful gaming guides on AllyonoApp.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://allyonoapp.app/apps?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://allyonoapp.app/#organization",
+        "name": "AllyonoApp",
+        "url": "https://allyonoapp.app/",
+        "logo": "https://allyonoapp.app/favicon.svg"
+      }
+    ]
+  };
 
   // Filter & Sort Logic
   const filteredApps = useMemo(() => {
@@ -43,10 +69,17 @@ export default function HomePage({ onOpenTelegram }) {
 
   return (
     <div className="min-h-screen bg-bg-dark text-white">
+      <SeoHead
+        title="Yono Games & Gaming App Information | AllyonoApp"
+        description="Explore Yono games, gaming app information, new app updates and useful gaming guides on AllyonoApp."
+        canonicalUrl="https://allyonoapp.app/"
+        jsonLd={homepageSchema}
+      />
+
       {/* Secondary Navigation */}
       <SecondaryNav />
 
-      {/* Main App Directory Section (Matching Reference Visual Layout) */}
+      {/* Main App Directory Section */}
       <section id="app-directory" className="py-12 bg-[#0A0A0A] border-t border-neutral-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
@@ -56,11 +89,11 @@ export default function HomePage({ onOpenTelegram }) {
               <Sparkles className="w-3 h-3" />
               <span>OFFICIAL DIRECTORY</span>
             </div>
-            <h2 className="text-3xl sm:text-4xl font-display font-black text-white tracking-tight">
-              ALL <span className="gold-gradient-text">APPS</span>
-            </h2>
+            <h1 className="text-3xl sm:text-4xl font-display font-black text-white tracking-tight">
+              Yono Games &amp; <span className="gold-gradient-text">Gaming App Information</span>
+            </h1>
             <p className="text-sm sm:text-base text-neutral-400 mt-2">
-              Explore available apps and learn more about their features, specifications, and safety ratings.
+              AllyonoApp provides information about Yono games, gaming apps, new app updates and useful guides. Explore yono games all, all yono new app options, yono slots, yono spin app, and yono vip game details in one place.
             </p>
           </div>
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import SeoHead from '../components/common/SeoHead';
 import SecondaryNav from '../components/common/SecondaryNav';
 import AppCard from '../components/home/AppCard';
 import DisclaimerBanner from '../components/common/DisclaimerBanner';
@@ -10,6 +11,11 @@ export default function NewAppsPage() {
 
   return (
     <div className="min-h-screen bg-bg-dark text-white">
+      <SeoHead
+        title="All Yono New Apps & 2026 Updates | AllyonoApp"
+        description="Discover all Yono new apps and 2026 updates. Explore recently listed gaming applications, version details, and release logs on AllyonoApp."
+        canonicalUrl="https://allyonoapp.app/new-apps"
+      />
       <SecondaryNav />
 
       {/* Hero Banner */}
@@ -20,7 +26,7 @@ export default function NewAppsPage() {
             <span>2026 RELEASES & UPDATES</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-display font-black text-white">
-            New Gaming <span className="gold-gradient-text">Apps & Updates</span>
+            All Yono New Apps <span className="gold-gradient-text">& Updates</span>
           </h1>
           <p className="text-sm sm:text-base text-neutral-400 max-w-2xl mx-auto mt-2">
             Recently indexed applications with the latest patch updates, security verifications, and updated feature sets.

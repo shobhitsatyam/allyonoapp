@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
+import SeoHead from '../components/common/SeoHead';
 import { APPS_DATA } from '../data/apps';
 import AppIconBadge from '../components/home/AppIconBadge';
 import SecondaryNav from '../components/common/SecondaryNav';
@@ -53,6 +54,45 @@ export default function AppDetailPage() {
     );
   }
 
+  // Schema graph
+  const appSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": app.name,
+        "operatingSystem": app.compatibility || "Android 6.0 & above",
+        "applicationCategory": "GameApplication",
+        "softwareVersion": app.version,
+        "fileSize": app.size,
+        "author": {
+          "@type": "Organization",
+          "name": app.developer || "Interactive Studio"
+        },
+        "description": app.shortDesc || app.overview
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allyonoapp.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Apps", "item": "https://allyonoapp.app/apps" },
+          { "@type": "ListItem", "position": 3, "name": app.name, "item": `https://allyonoapp.app/app/${app.slug}` }
+        ]
+      },
+      ...(app.faqs && app.faqs.length > 0 ? [{
+        "@type": "FAQPage",
+        "mainEntity": app.faqs.map(faq => ({
+          "@type": "Question",
+          "name": faq.q,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": faq.a
+          }
+        }))
+      }] : [])
+    ]
+  };
+
   // Related apps
   const relatedApps = APPS_DATA.filter((a) => a.id !== app.id && a.category === app.category).slice(0, 3);
 
@@ -64,6 +104,12 @@ export default function AppDetailPage() {
 
   return (
     <div className="min-h-screen bg-bg-dark text-white pb-16">
+      <SeoHead
+        title={`${app.name} – App Information | AllyonoApp`}
+        description={`Explore ${app.name} gaming app specifications, Android permissions audit, security details, and app information on AllyonoApp.`}
+        canonicalUrl={`https://allyonoapp.app/app/${app.slug}`}
+        jsonLd={appSchema}
+      />
       <SecondaryNav />
 
       {/* Breadcrumb & Navigation */}
@@ -112,7 +158,7 @@ export default function AppDetailPage() {
                 </div>
 
                 <h1 className="text-2xl sm:text-4xl font-display font-black text-white">
-                  {app.name}
+                  {app.name} App Information
                 </h1>
 
                 <div className="flex flex-wrap items-center gap-4 text-xs text-neutral-400 pt-1">

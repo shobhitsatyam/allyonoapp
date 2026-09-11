@@ -28,7 +28,7 @@ export default function FeaturedGuides() {
               <span>EDUCATIONAL RESOURCES</span>
             </div>
             <h2 className="font-display font-extrabold text-2xl sm:text-3xl text-white tracking-tight">
-              App Safety & <span className="gold-gradient-text">Player Guides</span>
+              Gaming App <span className="gold-gradient-text">Guides</span>
             </h2>
             <p className="text-sm text-neutral-400 mt-1 max-w-xl">
               Learn how to audit permissions, recognize genuine releases, understand RNG mechanics, and play responsibly.

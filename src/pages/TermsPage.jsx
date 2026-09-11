@@ -1,10 +1,16 @@
 import React from 'react';
+import SeoHead from '../components/common/SeoHead';
 import SecondaryNav from '../components/common/SecondaryNav';
 import DisclaimerBanner from '../components/common/DisclaimerBanner';
 
 export default function TermsPage() {
   return (
     <div className="min-h-screen bg-bg-dark text-white pb-16">
+      <SeoHead
+        title="Terms & Conditions | AllyonoApp"
+        description="Terms and conditions of use for AllyonoApp.app informational gaming app directory."
+        canonicalUrl="https://allyonoapp.app/terms"
+      />
       <SecondaryNav />
 
       <div className="py-12 bg-gradient-to-b from-bg-secondary via-[#0D0D0D] to-bg-dark border-b border-neutral-800">

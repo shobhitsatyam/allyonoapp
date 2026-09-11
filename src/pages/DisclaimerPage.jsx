@@ -1,4 +1,5 @@
 import React from 'react';
+import SeoHead from '../components/common/SeoHead';
 import SecondaryNav from '../components/common/SecondaryNav';
 import DisclaimerBanner from '../components/common/DisclaimerBanner';
 import { ShieldAlert, AlertTriangle, Scale, HeartHandshake, FileCheck } from 'lucide-react';
@@ -6,6 +7,11 @@ import { ShieldAlert, AlertTriangle, Scale, HeartHandshake, FileCheck } from 'lu
 export default function DisclaimerPage() {
   return (
     <div className="min-h-screen bg-bg-dark text-white pb-16">
+      <SeoHead
+        title="Legal & Compliance Disclaimer | AllyonoApp"
+        description="Read the legal, educational, and financial disclaimer for AllyonoApp gaming directory."
+        canonicalUrl="https://allyonoapp.app/disclaimer"
+      />
       <SecondaryNav />
 
       {/* Hero Banner */}

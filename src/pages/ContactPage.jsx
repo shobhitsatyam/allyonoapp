@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SeoHead from '../components/common/SeoHead';
 import SecondaryNav from '../components/common/SecondaryNav';
 import DisclaimerBanner from '../components/common/DisclaimerBanner';
 import { Mail, Send, MapPin, CheckCircle2, MessageSquare, ShieldAlert, Sparkles } from 'lucide-react';
@@ -15,6 +16,11 @@ export default function ContactPage({ onOpenTelegram }) {
 
   return (
     <div className="min-h-screen bg-bg-dark text-white pb-16">
+      <SeoHead
+        title="Contact AllyonoApp | Research & Inquiries Support"
+        description="Get in touch with the AllyonoApp editorial team for listing verifications, guide inquiries, or general support."
+        canonicalUrl="https://allyonoapp.app/contact"
+      />
       <SecondaryNav />
 
       {/* Hero Banner */}

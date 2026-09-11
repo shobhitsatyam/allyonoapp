@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import SeoHead from '../components/common/SeoHead';
 import SecondaryNav from '../components/common/SecondaryNav';
 import DisclaimerBanner from '../components/common/DisclaimerBanner';
 import { GUIDES_DATA } from '../data/guides';
@@ -49,6 +50,11 @@ export default function HowToPlayPage() {
 
   return (
     <div className="min-h-screen bg-bg-dark text-white pb-16">
+      <SeoHead
+        title="Yono Gaming App Guides & How to Play | AllyonoApp"
+        description="Educational gaming guides, Android permission safety checks, RNG verification tutorials, and responsible gaming resources on AllyonoApp."
+        canonicalUrl="https://allyonoapp.app/how-to-play"
+      />
       <SecondaryNav />
 
       {/* Hero Banner */}
@@ -59,7 +65,7 @@ export default function HowToPlayPage() {
             <span>KNOWLEDGE HUB</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-display font-black text-white">
-            How to Play & <span className="gold-gradient-text">App Safety Guides</span>
+            Yono Gaming App Guides &amp; <span className="gold-gradient-text">How to Play</span>
           </h1>
           <p className="text-sm sm:text-base text-neutral-400 max-w-2xl mx-auto mt-2">
             Educational tutorials covering game mechanics, Android permission audits, RNG verification, and healthy gaming practices.

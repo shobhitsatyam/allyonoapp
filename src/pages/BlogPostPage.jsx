@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
+import SeoHead from '../components/common/SeoHead';
 import { BLOG_POSTS } from '../data/blog';
 import SecondaryNav from '../components/common/SecondaryNav';
 import DisclaimerBanner from '../components/common/DisclaimerBanner';
@@ -38,10 +39,45 @@ export default function BlogPostPage() {
     );
   }
 
+  const postSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": post.title,
+        "description": post.summary,
+        "datePublished": post.date,
+        "author": {
+          "@type": "Person",
+          "name": post.author
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "AllyonoApp",
+          "logo": "https://allyonoapp.app/favicon.svg"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allyonoapp.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://allyonoapp.app/blog" },
+          { "@type": "ListItem", "position": 3, "name": post.title, "item": `https://allyonoapp.app/blog/${post.slug}` }
+        ]
+      }
+    ]
+  };
+
   const relatedPosts = BLOG_POSTS.filter((p) => p.id !== post.id).slice(0, 2);
 
   return (
     <div className="min-h-screen bg-bg-dark text-white pb-16">
+      <SeoHead
+        title={`${post.title} | AllyonoApp Blog`}
+        description={post.summary}
+        canonicalUrl={`https://allyonoapp.app/blog/${post.slug}`}
+        jsonLd={postSchema}
+      />
       <SecondaryNav />
 
       {/* Breadcrumbs */}

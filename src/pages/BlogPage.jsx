@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import SeoHead from '../components/common/SeoHead';
 import SecondaryNav from '../components/common/SecondaryNav';
 import DisclaimerBanner from '../components/common/DisclaimerBanner';
 import { BLOG_POSTS } from '../data/blog';
@@ -26,6 +27,11 @@ export default function BlogPage() {
 
   return (
     <div className="min-h-screen bg-bg-dark text-white pb-16">
+      <SeoHead
+        title="Gaming Industry Insights & Analysis | AllyonoApp"
+        description="In-depth research and editorial analysis of mobile gaming security standards, RNG algorithms, and player protection trends on AllyonoApp."
+        canonicalUrl="https://allyonoapp.app/blog"
+      />
       <SecondaryNav />
 
       {/* Hero Banner */}
@@ -36,7 +42,7 @@ export default function BlogPage() {
             <span>EDITORIAL & RESEARCH</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-display font-black text-white">
-            Industry Insights & <span className="gold-gradient-text">Analysis</span>
+            Gaming Industry Insights &amp; <span className="gold-gradient-text">Analysis</span>
           </h1>
           <p className="text-sm sm:text-base text-neutral-400 max-w-2xl mx-auto mt-2">
             In-depth analysis of mobile gaming cybersecurity, cryptographic RNG fairness, and player protection trends.

@@ -23,18 +23,17 @@ export default function Hero({ onOpenTelegram }) {
 
             {/* Main Headings */}
             <div className="space-y-1">
-              <h2 className="text-sm sm:text-base font-semibold text-neutral-300 tracking-wider uppercase">
-                WELCOME TO
-              </h2>
-              <h1 className="text-4xl sm:text-5xl xl:text-6xl font-display font-black tracking-tight text-white">
-                <span className="gold-gradient-text">AllyonoApp</span>
-                <span className="text-white">.app</span>
+              <p className="text-sm sm:text-base font-semibold text-neutral-300 tracking-wider uppercase">
+                WELCOME TO ALLYONOAPP
+              </p>
+              <h1 className="text-3xl sm:text-4xl xl:text-5xl font-display font-black tracking-tight text-white">
+                Yono Games &amp; <span className="gold-gradient-text">Gaming App Information</span>
               </h1>
             </div>
 
             {/* Supporting Copy */}
             <p className="text-base sm:text-lg text-neutral-300 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              Explore gaming apps, app information, guides and the latest updates in one place. Discover verified versions, permission checklists, and comprehensive how-to-play resources.
+              AllyonoApp provides information about Yono games, gaming apps, new app updates and useful guides. Explore yono games all, all yono new app options, yono slots, yono spin app, and yono vip game information in one place.
             </p>
 
             {/* 3 Informational Feature Badges (Matching Reference Style) */}

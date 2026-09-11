@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
+import SeoHead from '../components/common/SeoHead';
 import { GUIDES_DATA } from '../data/guides';
 import SecondaryNav from '../components/common/SecondaryNav';
 import DisclaimerBanner from '../components/common/DisclaimerBanner';
@@ -38,10 +39,44 @@ export default function GuideDetailPage() {
     );
   }
 
+  const guideSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": guide.title,
+        "description": guide.summary,
+        "author": {
+          "@type": "Organization",
+          "name": "AllyonoApp Editorial Team"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "AllyonoApp",
+          "logo": "https://allyonoapp.app/favicon.svg"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allyonoapp.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Guides", "item": "https://allyonoapp.app/how-to-play" },
+          { "@type": "ListItem", "position": 3, "name": guide.title, "item": `https://allyonoapp.app/guide/${guide.slug}` }
+        ]
+      }
+    ]
+  };
+
   const otherGuides = GUIDES_DATA.filter((g) => g.id !== guide.id).slice(0, 3);
 
   return (
     <div className="min-h-screen bg-bg-dark text-white pb-16">
+      <SeoHead
+        title={`${guide.title} – Guide | AllyonoApp`}
+        description={guide.summary}
+        canonicalUrl={`https://allyonoapp.app/guide/${guide.slug}`}
+        jsonLd={guideSchema}
+      />
       <SecondaryNav />
 
       {/* Breadcrumb */}

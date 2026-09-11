@@ -1,4 +1,5 @@
 import React from 'react';
+import SeoHead from '../components/common/SeoHead';
 import SecondaryNav from '../components/common/SecondaryNav';
 import DisclaimerBanner from '../components/common/DisclaimerBanner';
 import { ShieldCheck, BookOpen, Search, Eye, Users, Sparkles, Award } from 'lucide-react';
@@ -6,6 +7,11 @@ import { ShieldCheck, BookOpen, Search, Eye, Users, Sparkles, Award } from 'luci
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-bg-dark text-white pb-16">
+      <SeoHead
+        title="About AllyonoApp | Gaming App Information & Safety Directory"
+        description="Learn about AllyonoApp, an independent gaming app directory providing permission audits, specifications, and educational guides."
+        canonicalUrl="https://allyonoapp.app/about"
+      />
       <SecondaryNav />
 
       {/* Hero Banner */}
