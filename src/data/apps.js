@@ -4142,6 +4142,302 @@ export const APPS_DATA = [
         "a": "Register your account with your mobile number to unlock daily free wheel spins and claim instant cash rewards."
       }
     ]
+  },
+  {
+    "id": 57,
+    "serial": "57",
+    "rank": 57,
+    "name": "Money Rummy",
+    "slug": "money-rummy",
+    "category": "Rummy",
+    "subCategory": "Rummy / Real Cash",
+    "isNew": true,
+    "isFeatured": true,
+    "tag": "New 2026",
+    "badgeInfo": "Sign Up Bonus ₹51",
+    "thresholdInfo": "Min. Withdraw ₹100",
+    "bonus": "₹51",
+    "minimumWithdrawal": "₹100",
+    "downloadUrl": "https://moneyrummyhh.com/?code=T1XDKL9CX8S&t=1788948959",
+    "iconImg": "https://moneyrummyhh.com/logo.png",
+    "status": "Active",
+    "rating": 4.8,
+    "reviewsCount": "45.0K",
+    "size": "36.0 MB",
+    "version": "v4.5.0 (2026 Edition)",
+    "lastUpdated": "September 2026",
+    "developer": "Money Rummy Studio",
+    "compatibility": "Android 6.0 & above",
+    "iconBg": "from-emerald-600 via-teal-700 to-emerald-900",
+    "iconText": "MONEY",
+    "iconSubtext": "RUMMY",
+    "iconVariant": "spade",
+    "shortDesc": "Download Money Rummy APK and experience seamless card gaming with real cash rewards, instant ₹100 UPI withdrawals, and exciting sign-up bonuses.",
+    "overview": "Money Rummy is a premier mobile entertainment application offering seamless real-cash card games, slots, and quick tournaments with instant UPI payouts from ₹100.",
+    "features": [
+      "Sign Up Bonus ₹51 on Mobile Verification",
+      "Instant ₹100 Fast UPI & IMPS Withdrawals",
+      "Multiplayer 2-Player and 6-Player High-Speed Tables",
+      "End-to-End TLS 1.3 Encryption Security",
+      "Certified Random Shuffling (RNG) System"
+    ],
+    "specs": {
+      "Package Name": "com.moneyrummy.app2026",
+      "Required Android": "6.0 (Marshmallow) or higher",
+      "Recommended RAM": "2 GB RAM or above",
+      "RNG Certification": "Certified Random Distribution",
+      "SSL Encryption": "TLS 1.3 Verified",
+      "App Category": "Rummy & Card Gaming"
+    },
+    "permissions": [
+      {
+        "name": "Internet Access",
+        "status": "Required",
+        "reason": "Live server synchronization."
+      },
+      {
+        "name": "Storage / Cache",
+        "status": "Required",
+        "reason": "Saves high-res card assets locally to save mobile data."
+      },
+      {
+        "name": "Contacts / SMS",
+        "status": "Not Requested",
+        "reason": "Full privacy maintained."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the minimum withdrawal for Money Rummy?",
+        "a": "The minimum withdrawal threshold in Money Rummy is ₹100 via verified UPI and direct bank transfer."
+      },
+      {
+        "q": "How can I claim the signup bonus in Money Rummy?",
+        "a": "Register with your mobile phone number and complete OTP verification to receive Sign Up Bonus ₹51 in your game wallet."
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "serial": "58",
+    "rank": 58,
+    "name": "Diwa Play",
+    "slug": "diwa-play",
+    "category": "Gaming",
+    "subCategory": "Gaming / Multi-Table",
+    "isNew": true,
+    "isFeatured": true,
+    "tag": "Hot 2026",
+    "badgeInfo": "Sign Up Bonus ₹55",
+    "thresholdInfo": "Min. Withdraw ₹100",
+    "bonus": "₹55",
+    "minimumWithdrawal": "₹100",
+    "downloadUrl": "https://diwaplayshare.com/?pid=504760508&channel=2010002&pkg=com.diwaplaywhl.app",
+    "iconImg": "https://allnewyonoapps.com/Diwa-Play.webp",
+    "status": "Active",
+    "rating": 4.7,
+    "reviewsCount": "52.0K",
+    "size": "37.0 MB",
+    "version": "v4.5.0 (2026 Edition)",
+    "lastUpdated": "September 2026",
+    "developer": "Diwa Interactive Studio",
+    "compatibility": "Android 6.0 & above",
+    "iconBg": "from-amber-500 via-yellow-600 to-amber-700",
+    "iconText": "DIWA",
+    "iconSubtext": "PLAY",
+    "iconVariant": "all-games",
+    "shortDesc": "Download Diwa Play APK to enjoy 50+ exciting multiplayer games, daily spin bonuses, and instant UPI withdrawals starting from ₹100.",
+    "overview": "Diwa Play is a premier mobile entertainment application offering seamless real-cash card games, slots, and quick tournaments with instant UPI payouts from ₹100.",
+    "features": [
+      "Sign Up Bonus ₹55 on Mobile Verification",
+      "Instant ₹100 Fast UPI & IMPS Withdrawals",
+      "50+ Card, Slot and Wheel Spin Games",
+      "End-to-End TLS 1.3 Encryption Security",
+      "Certified Fair Gameplay and Shuffling System"
+    ],
+    "specs": {
+      "Package Name": "com.diwaplaywhl.app",
+      "Required Android": "6.0 (Marshmallow) or higher",
+      "Recommended RAM": "2 GB RAM or above",
+      "RNG Certification": "Certified Random Distribution",
+      "SSL Encryption": "TLS 1.3 Verified",
+      "App Category": "Gaming & Card Gaming"
+    },
+    "permissions": [
+      {
+        "name": "Internet Access",
+        "status": "Required",
+        "reason": "Live server synchronization."
+      },
+      {
+        "name": "Storage / Cache",
+        "status": "Required",
+        "reason": "Saves high-res card and wheel assets locally to save mobile data."
+      },
+      {
+        "name": "Contacts / SMS",
+        "status": "Not Requested",
+        "reason": "Full privacy maintained."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the minimum withdrawal for Diwa Play?",
+        "a": "The minimum withdrawal threshold in Diwa Play is ₹100 via verified UPI and direct bank transfer."
+      },
+      {
+        "q": "How can I claim the signup bonus in Diwa Play?",
+        "a": "Register with your mobile phone number and complete OTP verification to receive Sign Up Bonus ₹55 in your game wallet."
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "serial": "59",
+    "rank": 59,
+    "name": "Top Rummy",
+    "slug": "top-rummy",
+    "category": "Rummy",
+    "subCategory": "Rummy / Real Cash",
+    "isNew": true,
+    "isFeatured": true,
+    "tag": "New 2026",
+    "badgeInfo": "Sign Up Bonus ₹41",
+    "thresholdInfo": "Min. Withdraw ₹100",
+    "bonus": "₹41",
+    "minimumWithdrawal": "₹100",
+    "downloadUrl": "https://www.toprummy.cc/?code=7K9E7UY7AEQ&t=1789195449",
+    "iconImg": "https://www.toprummy.cc/logo.png",
+    "status": "Active",
+    "rating": 4.8,
+    "reviewsCount": "61.0K",
+    "size": "35.0 MB",
+    "version": "v4.5.0 (2026 Edition)",
+    "lastUpdated": "September 2026",
+    "developer": "Top Rummy Studio",
+    "compatibility": "Android 6.0 & above",
+    "iconBg": "from-rose-700 via-red-800 to-amber-900",
+    "iconText": "TOP",
+    "iconSubtext": "RUMMY",
+    "iconVariant": "spade",
+    "shortDesc": "Download Top Rummy APK for high-speed rummy action, instant cash withdrawals to bank or UPI, and special welcome bonus rewards.",
+    "overview": "Top Rummy is a premier mobile entertainment application offering seamless real-cash card games, slots, and quick tournaments with instant UPI payouts from ₹100.",
+    "features": [
+      "Sign Up Bonus ₹41 on Mobile Verification",
+      "Instant ₹100 Fast UPI & IMPS Withdrawals",
+      "High-Speed Tables & Daily Tournaments",
+      "End-to-End TLS 1.3 Encryption Security",
+      "Certified Random Shuffling (RNG) System"
+    ],
+    "specs": {
+      "Package Name": "com.toprummy.app2026",
+      "Required Android": "6.0 (Marshmallow) or higher",
+      "Recommended RAM": "2 GB RAM or above",
+      "RNG Certification": "Certified Random Distribution",
+      "SSL Encryption": "TLS 1.3 Verified",
+      "App Category": "Rummy & Card Gaming"
+    },
+    "permissions": [
+      {
+        "name": "Internet Access",
+        "status": "Required",
+        "reason": "Live server synchronization."
+      },
+      {
+        "name": "Storage / Cache",
+        "status": "Required",
+        "reason": "Saves high-res card assets locally to save mobile data."
+      },
+      {
+        "name": "Contacts / SMS",
+        "status": "Not Requested",
+        "reason": "Full privacy maintained."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the minimum withdrawal for Top Rummy?",
+        "a": "The minimum withdrawal threshold in Top Rummy is ₹100 via verified UPI and direct bank transfer."
+      },
+      {
+        "q": "How can I claim the signup bonus in Top Rummy?",
+        "a": "Register with your mobile phone number and complete OTP verification to receive Sign Up Bonus ₹41 in your game wallet."
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "serial": "60",
+    "rank": 60,
+    "name": "Neta VIP",
+    "slug": "neta-vip-app",
+    "category": "Gaming",
+    "subCategory": "VIP / Premium",
+    "isNew": true,
+    "isFeatured": true,
+    "tag": "VIP Pick",
+    "badgeInfo": "Sign Up Bonus ₹50",
+    "thresholdInfo": "Min. Withdraw ₹100",
+    "bonus": "₹50",
+    "minimumWithdrawal": "₹100",
+    "downloadUrl": "https://www.neta1.vip/?code=DR0JGAFUMGA&t=1789370957",
+    "iconImg": "https://www.neta1.vip/logo.png",
+    "status": "Active",
+    "rating": 4.9,
+    "reviewsCount": "95.0K",
+    "size": "39.0 MB",
+    "version": "v4.5.0 (2026 Edition)",
+    "lastUpdated": "September 2026",
+    "developer": "Neta VIP Interactive Studio",
+    "compatibility": "Android 6.0 & above",
+    "iconBg": "from-amber-500 via-yellow-600 to-amber-700",
+    "iconText": "NETA",
+    "iconSubtext": "VIP",
+    "iconVariant": "vip",
+    "shortDesc": "Download Neta VIP 2026 APK and claim your exclusive VIP signup bonus. Enjoy premium slots, card tables, and priority UPI withdrawals starting from ₹100.",
+    "overview": "Neta VIP is a premier mobile entertainment application offering seamless real-cash card games, slots, and quick tournaments with instant UPI payouts from ₹100.",
+    "features": [
+      "Sign Up Bonus ₹50 on Mobile Verification",
+      "Instant ₹100 Fast UPI & IMPS Withdrawals",
+      "Exclusive VIP Daily Bonuses & Cash Rebates",
+      "End-to-End TLS 1.3 Encryption Security",
+      "Certified Random Shuffling (RNG) System"
+    ],
+    "specs": {
+      "Package Name": "com.neta1vip.app2026",
+      "Required Android": "6.0 (Marshmallow) or higher",
+      "Recommended RAM": "2 GB RAM or above",
+      "RNG Certification": "Certified Random Distribution",
+      "SSL Encryption": "TLS 1.3 Verified",
+      "App Category": "Gaming & Card Gaming"
+    },
+    "permissions": [
+      {
+        "name": "Internet Access",
+        "status": "Required",
+        "reason": "Live server synchronization."
+      },
+      {
+        "name": "Storage / Cache",
+        "status": "Required",
+        "reason": "Saves high-res card assets locally to save mobile data."
+      },
+      {
+        "name": "Contacts / SMS",
+        "status": "Not Requested",
+        "reason": "Full privacy maintained."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the minimum withdrawal for Neta VIP?",
+        "a": "The minimum withdrawal threshold in Neta VIP is ₹100 via verified UPI and direct bank transfer."
+      },
+      {
+        "q": "How can I claim the signup bonus in Neta VIP?",
+        "a": "Register with your mobile phone number and complete OTP verification to receive Sign Up Bonus ₹50 in your game wallet."
+      }
+    ]
   }
 ];
 
@@ -4149,17 +4445,17 @@ export const CATEGORIES = [
   {
     "id": "all",
     "label": "ALL APPS",
-    "count": 56
+    "count": 60
   },
   {
     "id": "new",
     "label": "NEW APPS",
-    "count": 31
+    "count": 35
   },
   {
     "id": "rummy",
     "label": "RUMMY",
-    "count": 18
+    "count": 20
   },
   {
     "id": "slots",
@@ -4184,6 +4480,6 @@ export const CATEGORIES = [
   {
     "id": "gaming",
     "label": "GAMING",
-    "count": 16
+    "count": 18
   }
 ];

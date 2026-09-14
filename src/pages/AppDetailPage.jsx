@@ -105,8 +105,8 @@ export default function AppDetailPage() {
   return (
     <div className="min-h-screen bg-bg-dark text-white pb-16">
       <SeoHead
-        title={`${app.name} – App Information | AllyonoApp`}
-        description={`Explore ${app.name} gaming app specifications, Android permissions audit, security details, and app information on AllyonoApp.`}
+        title={`${app.name} Information, Features & Details | AllyonoApp`}
+        description={`Learn about ${app.name}, including its app information, features, compatibility, version details and important safety considerations.`}
         canonicalUrl={`https://allyonoapp.app/app/${app.slug}`}
         jsonLd={appSchema}
       />
@@ -158,7 +158,7 @@ export default function AppDetailPage() {
                 </div>
 
                 <h1 className="text-2xl sm:text-4xl font-display font-black text-white">
-                  {app.name} App Information
+                  {app.name}
                 </h1>
 
                 <div className="flex flex-wrap items-center gap-4 text-xs text-neutral-400 pt-1">
@@ -225,7 +225,7 @@ export default function AppDetailPage() {
             <div className="p-6 sm:p-8 rounded-2xl bg-[#111111] border border-neutral-800 space-y-4">
               <h2 className="font-display font-extrabold text-xl text-white flex items-center gap-2">
                 <span className="w-2 h-6 bg-gold rounded-full" />
-                <span>Application Overview</span>
+                <span>About {app.name}</span>
               </h2>
               <p className="text-sm sm:text-base text-neutral-300 leading-relaxed">
                 {app.overview}
@@ -252,7 +252,7 @@ export default function AppDetailPage() {
             <div className="p-6 sm:p-8 rounded-2xl bg-[#111111] border border-neutral-800 space-y-4">
               <h2 className="font-display font-extrabold text-xl text-white flex items-center gap-2">
                 <span className="w-2 h-6 bg-gold rounded-full" />
-                <span>Key Features & Game Modes</span>
+                <span>Features</span>
               </h2>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
                 {app.features.map((feature, idx) => (
@@ -364,10 +364,10 @@ export default function AppDetailPage() {
             
             {/* Technical Specifications Sheet */}
             <div className="p-6 rounded-2xl bg-[#111111] border border-neutral-800 space-y-4">
-              <h3 className="font-display font-bold text-base text-white flex items-center gap-2 uppercase tracking-wide">
+              <h2 className="font-display font-bold text-base text-white flex items-center gap-2 uppercase tracking-wide">
                 <Cpu className="w-4 h-4 text-gold" />
-                <span>Technical Specs</span>
-              </h3>
+                <span>App Information</span>
+              </h2>
 
               <div className="space-y-3 text-xs divide-y divide-neutral-800/80">
                 {Object.entries(app.specs).map(([key, val]) => (

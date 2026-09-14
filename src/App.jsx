@@ -20,6 +20,7 @@ import AboutPage from './pages/AboutPage';
 import PrivacyPage from './pages/PrivacyPage';
 import TermsPage from './pages/TermsPage';
 import DisclaimerPage from './pages/DisclaimerPage';
+import NotFoundPage from './pages/NotFoundPage';
 
 export default function App() {
   const [telegramOpen, setTelegramOpen] = useState(false);
@@ -47,7 +48,7 @@ export default function App() {
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/terms" element={<TermsPage />} />
           <Route path="/disclaimer" element={<DisclaimerPage />} />
-          <Route path="*" element={<HomePage onOpenTelegram={() => setTelegramOpen(true)} />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
 

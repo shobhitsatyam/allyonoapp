@@ -12,8 +12,8 @@ export default function NewAppsPage() {
   return (
     <div className="min-h-screen bg-bg-dark text-white">
       <SeoHead
-        title="All Yono New Apps & 2026 Updates | AllyonoApp"
-        description="Discover all Yono new apps and 2026 updates. Explore recently listed gaming applications, version details, and release logs on AllyonoApp."
+        title="New Yono Games & Gaming App Updates | AllyonoApp"
+        description="Discover new Yono games, latest gaming app updates, version details, and new app information on AllyonoApp."
         canonicalUrl="https://allyonoapp.app/new-apps"
       />
       <SecondaryNav />
@@ -26,7 +26,7 @@ export default function NewAppsPage() {
             <span>2026 RELEASES & UPDATES</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-display font-black text-white">
-            All Yono New Apps <span className="gold-gradient-text">& Updates</span>
+            New Gaming <span className="gold-gradient-text">Apps</span>
           </h1>
           <p className="text-sm sm:text-base text-neutral-400 max-w-2xl mx-auto mt-2">
             Recently indexed applications with the latest patch updates, security verifications, and updated feature sets.

@@ -87,7 +87,7 @@ export default function HomePage({ onOpenTelegram }) {
           <div className="text-center max-w-3xl mx-auto mb-8">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold/10 border border-gold/30 text-gold text-xs font-bold tracking-widest uppercase mb-2">
               <Sparkles className="w-3 h-3" />
-              <span>OFFICIAL DIRECTORY</span>
+              <span>GAMING APP DIRECTORY</span>
             </div>
             <h1 className="text-3xl sm:text-4xl font-display font-black text-white tracking-tight">
               Yono Games &amp; <span className="gold-gradient-text">Gaming App Information</span>

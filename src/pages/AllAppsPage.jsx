@@ -40,8 +40,8 @@ export default function AllAppsPage() {
   return (
     <div className="min-h-screen bg-bg-dark text-white">
       <SeoHead
-        title="All Yono Games & Gaming Apps Directory | AllyonoApp"
-        description="Browse the complete index of Yono games and gaming applications with specifications, version logs, and safety ratings on AllyonoApp."
+        title="Yono Games All Apps & Gaming App Information | AllyonoApp"
+        description="Browse the complete directory of Yono games all apps, gaming app information, version specifications, and safety details on AllyonoApp."
         canonicalUrl="https://allyonoapp.app/apps"
       />
       <SecondaryNav />
@@ -54,7 +54,7 @@ export default function AllAppsPage() {
             <span>FULL DIRECTORY</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-display font-black text-white">
-            All Yono Gaming <span className="gold-gradient-text">Applications</span>
+            Yono Games <span className="gold-gradient-text">All Apps</span>
           </h1>
           <p className="text-sm sm:text-base text-neutral-400 max-w-2xl mx-auto mt-2">
             Browse our comprehensive index of verified gaming applications with detailed safety ratings, version histories, and specifications.
