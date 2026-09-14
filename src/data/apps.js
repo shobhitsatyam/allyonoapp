@@ -4438,6 +4438,154 @@ export const APPS_DATA = [
         "a": "Register with your mobile phone number and complete OTP verification to receive Sign Up Bonus ₹50 in your game wallet."
       }
     ]
+  },
+  {
+    "id": 61,
+    "serial": "61",
+    "rank": 61,
+    "name": "Slot Spin",
+    "slug": "slot-spin",
+    "category": "Slots",
+    "subCategory": "Slots / Spin & Win",
+    "isNew": true,
+    "isFeatured": true,
+    "tag": "New 2026",
+    "badgeInfo": "Sign Up Bonus ₹45",
+    "thresholdInfo": "Min. Withdraw ₹100",
+    "bonus": "₹45",
+    "minimumWithdrawal": "₹100",
+    "downloadUrl": "https://www.slotsspinc.com/?code=XJB5XCSEHVG&t=1789371905",
+    "iconImg": "https://www.slotsspinc.com/logo.png",
+    "status": "Active",
+    "rating": 4.8,
+    "reviewsCount": "54.0K",
+    "size": "38.0 MB",
+    "version": "v4.5.0 (2026 Edition)",
+    "lastUpdated": "September 2026",
+    "developer": "Slot Spin Interactive Studio",
+    "compatibility": "Android 6.0 & above",
+    "iconBg": "from-amber-500 via-orange-600 to-red-700",
+    "iconText": "SLOT",
+    "iconSubtext": "SPIN",
+    "iconVariant": "all-games",
+    "shortDesc": "Download Slot Spin APK to enjoy premium slot machine spins, daily lucky rewards, and instant ₹100 UPI and bank withdrawals.",
+    "overview": "Slot Spin is a premier mobile entertainment application offering seamless real-cash card games, slots, and quick tournaments with instant UPI payouts from ₹100.",
+    "features": [
+      "Sign Up Bonus ₹45 on Mobile Verification",
+      "Instant ₹100 Fast UPI & IMPS Withdrawals",
+      "High-RTP Multi-Line Slot Reels & Bonus Wheels",
+      "End-to-End TLS 1.3 Encryption Security",
+      "Certified Random Shuffling (RNG) System"
+    ],
+    "specs": {
+      "Package Name": "com.slotspin.app2026",
+      "Required Android": "6.0 (Marshmallow) or higher",
+      "Recommended RAM": "2 GB RAM or above",
+      "RNG Certification": "Certified Random Distribution",
+      "SSL Encryption": "TLS 1.3 Verified",
+      "App Category": "Slots & Spin Gaming"
+    },
+    "permissions": [
+      {
+        "name": "Internet Access",
+        "status": "Required",
+        "reason": "Live server synchronization."
+      },
+      {
+        "name": "Storage / Cache",
+        "status": "Required",
+        "reason": "Saves high-res card and reel assets locally to save mobile data."
+      },
+      {
+        "name": "Contacts / SMS",
+        "status": "Not Requested",
+        "reason": "Full privacy maintained."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the minimum withdrawal for Slot Spin?",
+        "a": "The minimum withdrawal threshold in Slot Spin is ₹100 via verified UPI and direct bank transfer."
+      },
+      {
+        "q": "How can I claim the signup bonus in Slot Spin?",
+        "a": "Register with your mobile phone number and complete OTP verification to receive Sign Up Bonus ₹45 in your game wallet."
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "serial": "62",
+    "rank": 62,
+    "name": "OK Rummy",
+    "slug": "ok-rummy",
+    "category": "Rummy",
+    "subCategory": "Rummy / Real Cash",
+    "isNew": true,
+    "isFeatured": true,
+    "tag": "Hot 2026",
+    "badgeInfo": "Sign Up Bonus ₹51",
+    "thresholdInfo": "Min. Withdraw ₹100",
+    "bonus": "₹51",
+    "minimumWithdrawal": "₹100",
+    "downloadUrl": "https://www.okrummy21.com/?code=H2GQ624ENB2&t=1789372209",
+    "iconImg": "https://www.okrummy21.com/logo.png",
+    "status": "Active",
+    "rating": 4.8,
+    "reviewsCount": "68.0K",
+    "size": "36.0 MB",
+    "version": "v4.5.0 (2026 Edition)",
+    "lastUpdated": "September 2026",
+    "developer": "OK Rummy Interactive Studio",
+    "compatibility": "Android 6.0 & above",
+    "iconBg": "from-emerald-600 via-teal-700 to-emerald-900",
+    "iconText": "OK",
+    "iconSubtext": "RUMMY",
+    "iconVariant": "spade",
+    "shortDesc": "Download OK Rummy APK for fast and secure real-cash rummy tables, daily login bonus coins, and instant UPI withdrawals from ₹100.",
+    "overview": "OK Rummy is a premier mobile entertainment application offering seamless real-cash card games, slots, and quick tournaments with instant UPI payouts from ₹100.",
+    "features": [
+      "Sign Up Bonus ₹51 on Mobile Verification",
+      "Instant ₹100 Fast UPI & IMPS Withdrawals",
+      "Points, Pool & Deals High-Speed Rummy Tables",
+      "End-to-End TLS 1.3 Encryption Security",
+      "Certified Random Shuffling (RNG) System"
+    ],
+    "specs": {
+      "Package Name": "com.okrummy.app2026",
+      "Required Android": "6.0 (Marshmallow) or higher",
+      "Recommended RAM": "2 GB RAM or above",
+      "RNG Certification": "Certified Random Distribution",
+      "SSL Encryption": "TLS 1.3 Verified",
+      "App Category": "Rummy & Card Gaming"
+    },
+    "permissions": [
+      {
+        "name": "Internet Access",
+        "status": "Required",
+        "reason": "Live server synchronization."
+      },
+      {
+        "name": "Storage / Cache",
+        "status": "Required",
+        "reason": "Saves high-res card assets locally to save mobile data."
+      },
+      {
+        "name": "Contacts / SMS",
+        "status": "Not Requested",
+        "reason": "Full privacy maintained."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the minimum withdrawal for OK Rummy?",
+        "a": "The minimum withdrawal threshold in OK Rummy is ₹100 via verified UPI and direct bank transfer."
+      },
+      {
+        "q": "How can I claim the signup bonus in OK Rummy?",
+        "a": "Register with your mobile phone number and complete OTP verification to receive Sign Up Bonus ₹51 in your game wallet."
+      }
+    ]
   }
 ];
 
@@ -4445,22 +4593,22 @@ export const CATEGORIES = [
   {
     "id": "all",
     "label": "ALL APPS",
-    "count": 60
+    "count": 62
   },
   {
     "id": "new",
     "label": "NEW APPS",
-    "count": 35
+    "count": 37
   },
   {
     "id": "rummy",
     "label": "RUMMY",
-    "count": 20
+    "count": 21
   },
   {
     "id": "slots",
     "label": "SLOTS",
-    "count": 7
+    "count": 8
   },
   {
     "id": "spin",
