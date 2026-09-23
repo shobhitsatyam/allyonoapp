@@ -32,15 +32,15 @@ export default function CategoryTabs({ activeCategory, onSelectCategory }) {
               type="button"
               className={`flex items-center gap-2 px-4 sm:px-5 py-2.5 sm:py-3 rounded-xl font-display text-xs sm:text-sm font-extrabold tracking-wider uppercase transition-all duration-300 whitespace-nowrap shrink-0 ${
                 isSelected
-                  ? 'bg-gradient-to-r from-gold-bright via-gold to-amber-500 text-black shadow-gold-md scale-[1.02]'
-                  : 'bg-neutral-900/90 text-neutral-300 hover:text-white hover:bg-neutral-800 border border-neutral-800 hover:border-gold/30'
+                  ? 'bg-[#00B8D9] text-white shadow-[0_4px_14px_rgba(0,184,217,0.2)] scale-[1.02]'
+                  : 'bg-white text-[#64748B] hover:text-[#008FA8] hover:bg-[#E6F9FC] border border-[#D9EEF2] hover:border-[#00B8D9]'
               }`}
             >
-              <Icon className={`w-4 h-4 ${isSelected ? 'text-black' : 'text-gold'}`} />
+              <Icon className={`w-4 h-4 ${isSelected ? 'text-white' : 'text-[#00B8D9]'}`} />
               <span>{cat.label}</span>
               {cat.count && (
                 <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-bold ${
-                  isSelected ? 'bg-black/20 text-black' : 'bg-neutral-800 text-neutral-400'
+                    isSelected ? 'bg-white/20 text-white' : 'bg-[#E6F9FC] text-[#008FA8]'
                 }`}>
                   {cat.count}
                 </span>

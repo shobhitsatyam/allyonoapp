@@ -98,8 +98,8 @@ export default function AppIconBadge({ app, size = "md" }) {
   };
 
   return (
-    <div className={`relative ${sizeClasses[size] || sizeClasses.md} bg-gradient-to-br ${app.iconBg || 'from-amber-500 to-yellow-800'} p-0.5 shadow-md flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform duration-300 rounded-2xl`}>
-      <div className="w-full h-full bg-[#121212]/80 backdrop-blur-xs rounded-[inherit] flex items-center justify-center p-1 border border-white/20">
+    <div className={`relative ${sizeClasses[size] || sizeClasses.md} bg-gradient-to-br ${app.iconBg || 'from-[#00B8D9] to-[#008FA8]'} p-0.5 shadow-md flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform duration-300 rounded-2xl`}>
+      <div className="w-full h-full bg-white/90 backdrop-blur-xs rounded-[inherit] flex items-center justify-center p-1 border border-white/70">
         {renderContent()}
       </div>
     </div>

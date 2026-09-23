@@ -11,7 +11,7 @@ export default function AppCard({ app, index = null, viewMode = 'list' }) {
 
   if (viewMode === 'grid') {
     return (
-      <div className="group relative flex flex-col justify-between rounded-2xl bg-[#111111] border border-neutral-800/80 hover:border-gold/50 hover:shadow-gold-sm transition-all duration-300 p-5">
+      <div className="group relative flex flex-col justify-between rounded-2xl bg-white border border-[#D9EEF2] hover:border-[#00B8D9] hover:shadow-[0_8px_24px_rgba(0,184,217,0.12)] transition-all duration-300 p-5">
         {rankNum && (
           <div className="absolute -top-2.5 -left-2.5 min-w-6 h-6 px-1.5 rounded-full bg-[#E52B2B] text-white font-black text-xs flex items-center justify-center shadow-md z-10 border border-white/40">
             {rankNum}
@@ -20,11 +20,11 @@ export default function AppCard({ app, index = null, viewMode = 'list' }) {
         <div>
           {/* Top Row: Serial, Rating */}
           <div className="flex items-center justify-between gap-2 mb-4">
-            <span className="font-display font-black text-sm text-gold/80 bg-gold/10 px-2 py-0.5 rounded-md">
+            <span className="font-display font-black text-sm text-[#008FA8] bg-[#E6F9FC] px-2 py-0.5 rounded-md">
               #{app.serial}
             </span>
-            <div className="flex items-center gap-1 text-xs font-bold text-amber-400 bg-neutral-900 border border-neutral-800 px-2 py-0.5 rounded-md">
-              <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
+            <div className="flex items-center gap-1 text-xs font-bold text-[#008FA8] bg-[#F8FAFC] border border-[#D9EEF2] px-2 py-0.5 rounded-md">
+              <Star className="w-3.5 h-3.5 fill-[#00B8D9] text-[#00B8D9]" />
               <span>{app.rating}</span>
             </div>
           </div>
@@ -36,29 +36,29 @@ export default function AppCard({ app, index = null, viewMode = 'list' }) {
             </Link>
             <div>
               <Link to={`/app/${app.slug}`}>
-                <h3 className="font-display font-bold text-base text-white group-hover:text-gold transition-colors line-clamp-1">
+                <h3 className="font-display font-bold text-base text-[#172033] group-hover:text-[#008FA8] transition-colors line-clamp-1">
                   {app.name}
                 </h3>
               </Link>
-              <span className="text-[11px] font-semibold text-neutral-400 tracking-wide">
+              <span className="text-[11px] font-semibold text-[#64748B] tracking-wide">
                 {app.subCategory || app.category}
               </span>
             </div>
           </div>
 
           {/* Key Specs */}
-          <div className="space-y-1.5 py-2.5 my-2 border-y border-neutral-800/80 text-xs font-semibold">
+          <div className="space-y-1.5 py-2.5 my-2 border-y border-[#D9EEF2] text-xs font-semibold">
             <div className="flex items-center gap-2 text-[#E52B2B]">
               <span className="text-sm">🎁</span>
               <span className="line-clamp-1">{app.badgeInfo}</span>
             </div>
-            <div className="flex items-center gap-2 text-neutral-200">
+            <div className="flex items-center gap-2 text-[#172033]">
               <span className="text-sm">💳</span>
               <span className="line-clamp-1">{app.thresholdInfo}</span>
             </div>
           </div>
 
-          <p className="text-xs text-neutral-400 leading-relaxed line-clamp-2 mb-4">
+          <p className="text-xs text-[#64748B] leading-relaxed line-clamp-2 mb-4">
             {app.shortDesc}
           </p>
         </div>
@@ -69,7 +69,7 @@ export default function AppCard({ app, index = null, viewMode = 'list' }) {
             href={downloadHref}
             target="_blank"
             rel="noopener noreferrer nofollow"
-            className="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-gold-gradient hover:bg-gold-gradient-hover text-black font-extrabold text-xs tracking-wider uppercase shadow-gold-sm active:scale-95 transition-all"
+            className="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-[#00B8D9] hover:bg-[#008FA8] text-white font-extrabold text-xs tracking-wider uppercase shadow-[0_4px_14px_rgba(0,184,217,0.2)] active:scale-95 transition-all"
           >
             <Download className="w-3.5 h-3.5" />
             <span>DOWNLOAD</span>
@@ -77,7 +77,7 @@ export default function AppCard({ app, index = null, viewMode = 'list' }) {
         ) : (
           <Link
             to={`/app/${app.slug}`}
-            className="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-gold-gradient hover:bg-gold-gradient-hover text-black font-extrabold text-xs tracking-wider uppercase shadow-gold-sm active:scale-95 transition-all"
+            className="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-[#00B8D9] hover:bg-[#008FA8] text-white font-extrabold text-xs tracking-wider uppercase shadow-[0_4px_14px_rgba(0,184,217,0.2)] active:scale-95 transition-all"
           >
             <Download className="w-3.5 h-3.5" />
             <span>DOWNLOAD</span>
@@ -89,7 +89,7 @@ export default function AppCard({ app, index = null, viewMode = 'list' }) {
 
   // Reference-Exact Horizontal List Row
   return (
-    <div className="group relative flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 p-3.5 sm:p-4 rounded-2xl bg-[#FFFFFF] sm:bg-[#FFFFFF] text-neutral-900 border border-gold/30 hover:border-gold hover:shadow-xl transition-all duration-300">
+    <div className="group relative flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 p-3.5 sm:p-4 rounded-2xl bg-white text-[#172033] border border-[#D9EEF2] hover:border-[#00B8D9] hover:shadow-[0_8px_24px_rgba(0,184,217,0.12)] transition-all duration-300">
       
       {/* Top Left Red Rank Badge */}
       {rankNum && (
@@ -110,7 +110,7 @@ export default function AppCard({ app, index = null, viewMode = 'list' }) {
         <div className="flex-1 min-w-0">
           
           <Link to={`/app/${app.slug}`}>
-            <h3 className="font-display font-extrabold text-base sm:text-lg text-neutral-950 group-hover:text-amber-800 transition-colors truncate">
+            <h3 className="font-display font-extrabold text-base sm:text-lg text-[#172033] group-hover:text-[#008FA8] transition-colors truncate">
               {app.name}
             </h3>
           </Link>
@@ -121,7 +121,7 @@ export default function AppCard({ app, index = null, viewMode = 'list' }) {
               <span className="text-sm">🎁</span>
               <span>{app.badgeInfo}</span>
             </div>
-            <div className="flex items-center gap-1.5 text-black">
+            <div className="flex items-center gap-1.5 text-[#172033]">
               <span className="text-sm">💳</span>
               <span>{app.thresholdInfo}</span>
             </div>
@@ -132,23 +132,23 @@ export default function AppCard({ app, index = null, viewMode = 'list' }) {
       </div>
 
       {/* Right side: Action Button (Download) */}
-      <div className="flex items-center justify-end sm:justify-center shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-neutral-100">
+      <div className="flex items-center justify-end sm:justify-center shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-[#D9EEF2]">
         {isExternalDownload ? (
           <a
             href={downloadHref}
             target="_blank"
             rel="noopener noreferrer nofollow"
-            className="w-full sm:w-auto min-w-[140px] inline-flex items-center justify-center gap-2 py-2.5 sm:py-3 px-5 rounded-xl bg-gold-gradient hover:bg-gold-gradient-hover text-black font-extrabold text-xs sm:text-sm tracking-wider uppercase shadow-md hover:shadow-gold-md hover:scale-105 active:scale-95 transition-all"
+            className="w-full sm:w-auto min-w-[140px] inline-flex items-center justify-center gap-2 py-2.5 sm:py-3 px-5 rounded-xl bg-[#00B8D9] hover:bg-[#008FA8] text-white font-extrabold text-xs sm:text-sm tracking-wider uppercase shadow-[0_4px_14px_rgba(0,184,217,0.2)] hover:scale-105 active:scale-95 transition-all"
           >
-            <Download className="w-4 h-4 text-black" />
+            <Download className="w-4 h-4 text-white" />
             <span>DOWNLOAD</span>
           </a>
         ) : (
           <Link
             to={`/app/${app.slug}`}
-            className="w-full sm:w-auto min-w-[140px] inline-flex items-center justify-center gap-2 py-2.5 sm:py-3 px-5 rounded-xl bg-gold-gradient hover:bg-gold-gradient-hover text-black font-extrabold text-xs sm:text-sm tracking-wider uppercase shadow-md hover:shadow-gold-md hover:scale-105 active:scale-95 transition-all"
+            className="w-full sm:w-auto min-w-[140px] inline-flex items-center justify-center gap-2 py-2.5 sm:py-3 px-5 rounded-xl bg-[#00B8D9] hover:bg-[#008FA8] text-white font-extrabold text-xs sm:text-sm tracking-wider uppercase shadow-[0_4px_14px_rgba(0,184,217,0.2)] hover:scale-105 active:scale-95 transition-all"
           >
-            <Download className="w-4 h-4 text-black" />
+            <Download className="w-4 h-4 text-white" />
             <span>DOWNLOAD</span>
           </Link>
         )}
