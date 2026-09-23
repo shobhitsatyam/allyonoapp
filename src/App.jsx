@@ -26,7 +26,7 @@ export default function App() {
   const [telegramOpen, setTelegramOpen] = useState(false);
 
   return (
-    <div className="flex flex-col min-h-screen bg-bg-dark text-white font-sans selection:bg-gold selection:text-black">
+    <div className="flex flex-col min-h-screen bg-[#f5f5f4] text-slate-900 font-sans selection:bg-gold selection:text-black">
       <ScrollToTop />
 
       {/* Sticky Header */}

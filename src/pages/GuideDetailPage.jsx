@@ -23,6 +23,12 @@ export default function GuideDetailPage() {
   if (!guide) {
     return (
       <div className="min-h-screen bg-bg-dark text-white flex items-center justify-center p-4">
+        <SeoHead
+          title="Guide Not Found | AllyonoApp"
+          description="The requested educational guide could not be located on AllyonoApp."
+          canonicalUrl="https://allyonoapp.app/how-to-play"
+          robots="noindex, follow"
+        />
         <div className="text-center max-w-md p-8 rounded-2xl bg-[#121212] border border-neutral-800">
           <AlertTriangle className="w-12 h-12 text-gold mx-auto mb-3" />
           <h2 className="text-2xl font-bold mb-2">Guide Not Found</h2>
@@ -72,9 +78,10 @@ export default function GuideDetailPage() {
   return (
     <div className="min-h-screen bg-bg-dark text-white pb-16">
       <SeoHead
-        title={`${guide.title} – Guide | AllyonoApp`}
+        title={`${guide.title} – Safety & Player Guide | AllyonoApp`}
         description={guide.summary}
         canonicalUrl={`https://allyonoapp.app/guide/${guide.slug}`}
+        ogType="article"
         jsonLd={guideSchema}
       />
       <SecondaryNav />

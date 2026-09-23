@@ -68,7 +68,7 @@ export default function AppCard({ app, index = null, viewMode = 'list' }) {
           <a
             href={downloadHref}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-gold-gradient hover:bg-gold-gradient-hover text-black font-extrabold text-xs tracking-wider uppercase shadow-gold-sm active:scale-95 transition-all"
           >
             <Download className="w-3.5 h-3.5" />
@@ -137,7 +137,7 @@ export default function AppCard({ app, index = null, viewMode = 'list' }) {
           <a
             href={downloadHref}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="w-full sm:w-auto min-w-[140px] inline-flex items-center justify-center gap-2 py-2.5 sm:py-3 px-5 rounded-xl bg-gold-gradient hover:bg-gold-gradient-hover text-black font-extrabold text-xs sm:text-sm tracking-wider uppercase shadow-md hover:shadow-gold-md hover:scale-105 active:scale-95 transition-all"
           >
             <Download className="w-4 h-4 text-black" />

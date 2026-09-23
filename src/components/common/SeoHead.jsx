@@ -6,10 +6,13 @@ export default function SeoHead({
   canonicalUrl = "https://allyonoapp.app/",
   ogType = "website",
   ogImage = "https://allyonoapp.app/og-image.png",
+  ogSiteName = "AllyonoApp",
+  twitterCard = "summary_large_image",
+  robots = "index, follow, max-image-preview:large",
   jsonLd = null
 }) {
   useEffect(() => {
-    // 1. Set document title
+    // 1. Document title
     if (title) {
       document.title = title;
     }
@@ -40,8 +43,10 @@ export default function SeoHead({
 
     // 2. Primary Meta Tags
     updateMetaTag('meta[name="description"]', 'description', 'name', description);
+    updateMetaTag('meta[name="robots"]', 'robots', 'name', robots);
+    updateMetaTag('meta[name="title"]', 'title', 'name', title);
 
-    // Ensure meta keywords tag is removed if present
+    // Remove legacy keywords tag if present
     const keywordsMeta = document.querySelector('meta[name="keywords"]');
     if (keywordsMeta) {
       keywordsMeta.remove();
@@ -56,9 +61,10 @@ export default function SeoHead({
     updateMetaTag('meta[property="og:url"]', 'og:url', 'property', canonicalUrl);
     updateMetaTag('meta[property="og:type"]', 'og:type', 'property', ogType);
     updateMetaTag('meta[property="og:image"]', 'og:image', 'property', ogImage);
+    updateMetaTag('meta[property="og:site_name"]', 'og:site_name', 'property', ogSiteName);
 
     // 5. Twitter Card Tags
-    updateMetaTag('meta[property="twitter:card"]', 'twitter:card', 'property', 'summary_large_image');
+    updateMetaTag('meta[property="twitter:card"]', 'twitter:card', 'property', twitterCard);
     updateMetaTag('meta[property="twitter:title"]', 'twitter:title', 'property', title);
     updateMetaTag('meta[property="twitter:description"]', 'twitter:description', 'property', description);
     updateMetaTag('meta[property="twitter:url"]', 'twitter:url', 'property', canonicalUrl);
@@ -78,7 +84,10 @@ export default function SeoHead({
       jsonLdScript.remove();
     }
 
-  }, [title, description, canonicalUrl, ogType, ogImage, jsonLd]);
+    return () => {
+      // Optional cleanup on unmount if needed
+    };
+  }, [title, description, canonicalUrl, ogType, ogImage, ogSiteName, twitterCard, robots, jsonLd]);
 
   return null;
 }

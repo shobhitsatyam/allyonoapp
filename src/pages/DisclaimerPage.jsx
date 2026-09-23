@@ -5,12 +5,32 @@ import DisclaimerBanner from '../components/common/DisclaimerBanner';
 import { ShieldAlert, AlertTriangle, Scale, HeartHandshake, FileCheck } from 'lucide-react';
 
 export default function DisclaimerPage() {
+  const disclaimerSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "Legal & Compliance Disclaimer | AllyonoApp Platform Notice",
+        "description": "Read the official legal, financial, and regulatory compliance disclaimer for AllyonoApp.app independent informational gaming directory.",
+        "url": "https://allyonoapp.app/disclaimer"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allyonoapp.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Disclaimer", "item": "https://allyonoapp.app/disclaimer" }
+        ]
+      }
+    ]
+  };
+
   return (
     <div className="min-h-screen bg-bg-dark text-white pb-16">
       <SeoHead
-        title="Legal & Compliance Disclaimer | AllyonoApp"
-        description="Read the legal, educational, and financial disclaimer for AllyonoApp gaming directory."
+        title="Legal & Compliance Disclaimer | AllyonoApp Platform Notice"
+        description="Read the official legal, financial, and regulatory compliance disclaimer for AllyonoApp.app independent informational gaming directory."
         canonicalUrl="https://allyonoapp.app/disclaimer"
+        jsonLd={disclaimerSchema}
       />
       <SecondaryNav />
 

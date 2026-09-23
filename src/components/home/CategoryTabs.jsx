@@ -21,7 +21,7 @@ export default function CategoryTabs({ activeCategory, onSelectCategory }) {
     <div className="w-full">
       {/* Reference Top Tab Bar (Big dual banner tabs or pill bar) */}
       <div className="flex items-center gap-2 overflow-x-auto no-scrollbar pb-2 pt-1">
-        {CATEGORIES.map((cat) => {
+        {CATEGORIES.filter((cat) => cat.id !== 'all').map((cat) => {
           const Icon = getIcon(cat.id);
           const isSelected = activeCategory === cat.id;
 

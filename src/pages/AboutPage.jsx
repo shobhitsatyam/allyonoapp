@@ -5,12 +5,38 @@ import DisclaimerBanner from '../components/common/DisclaimerBanner';
 import { ShieldCheck, BookOpen, Search, Eye, Users, Sparkles, Award } from 'lucide-react';
 
 export default function AboutPage() {
+  const aboutSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "AboutPage",
+        "name": "About AllyonoApp | Gaming App Directory & Safety Information",
+        "description": "Learn about AllyonoApp.app: an independent research and information platform providing technical permission audits, game specifications, and safety guidelines.",
+        "url": "https://allyonoapp.app/about",
+        "mainEntity": {
+          "@type": "Organization",
+          "name": "AllyonoApp",
+          "url": "https://allyonoapp.app/",
+          "logo": "https://allyonoapp.app/favicon.svg"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allyonoapp.app/" },
+          { "@type": "ListItem", "position": 2, "name": "About", "item": "https://allyonoapp.app/about" }
+        ]
+      }
+    ]
+  };
+
   return (
     <div className="min-h-screen bg-bg-dark text-white pb-16">
       <SeoHead
-        title="About AllyonoApp | Gaming App Information & Safety Directory"
-        description="Learn about AllyonoApp, an independent gaming app directory providing permission audits, specifications, and educational guides."
+        title="About AllyonoApp | Gaming App Directory & Safety Information"
+        description="Learn about AllyonoApp.app: an independent research and information platform providing technical permission audits, game specifications, and safety guidelines."
         canonicalUrl="https://allyonoapp.app/about"
+        jsonLd={aboutSchema}
       />
       <SecondaryNav />
 

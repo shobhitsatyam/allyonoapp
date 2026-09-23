@@ -19,7 +19,7 @@ export default function AppIconBadge({ app, size = "md" }) {
       <div className={`relative ${sizeClasses[size] || sizeClasses.md} rounded-2xl p-0.5 shadow-md flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform duration-300 overflow-hidden bg-neutral-900 border border-neutral-700/50`}>
         <img
           src={app.iconImg}
-          alt={`${app.name} gaming app icon`}
+          alt={`${app.name} official application icon`}
           loading="lazy"
           onError={() => setImgError(true)}
           className="w-full h-full object-cover rounded-[inherit]"

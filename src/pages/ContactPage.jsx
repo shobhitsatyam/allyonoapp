@@ -14,12 +14,38 @@ export default function ContactPage({ onOpenTelegram }) {
     setSubmitted(true);
   };
 
+  const contactSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ContactPage",
+        "name": "Contact AllyonoApp | Research Support & Verification Inquiries",
+        "description": "Contact the AllyonoApp editorial team for listing verifications, security audit inquiries, or general support.",
+        "url": "https://allyonoapp.app/contact",
+        "mainEntity": {
+          "@type": "Organization",
+          "name": "AllyonoApp",
+          "url": "https://allyonoapp.app/",
+          "logo": "https://allyonoapp.app/favicon.svg"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allyonoapp.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://allyonoapp.app/contact" }
+        ]
+      }
+    ]
+  };
+
   return (
     <div className="min-h-screen bg-bg-dark text-white pb-16">
       <SeoHead
-        title="Contact AllyonoApp | Research & Inquiries Support"
-        description="Get in touch with the AllyonoApp editorial team for listing verifications, guide inquiries, or general support."
+        title="Contact AllyonoApp | Research Support & Verification Inquiries"
+        description="Get in touch with the AllyonoApp editorial team for listing corrections, security research submissions, or directory support."
         canonicalUrl="https://allyonoapp.app/contact"
+        jsonLd={contactSchema}
       />
       <SecondaryNav />
 

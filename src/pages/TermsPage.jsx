@@ -4,12 +4,32 @@ import SecondaryNav from '../components/common/SecondaryNav';
 import DisclaimerBanner from '../components/common/DisclaimerBanner';
 
 export default function TermsPage() {
+  const termsSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "Terms & Conditions | AllyonoApp Platform Usage Agreement",
+        "description": "Review the Terms and Conditions for AllyonoApp.app covering informational directory scope and acceptable conduct.",
+        "url": "https://allyonoapp.app/terms"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allyonoapp.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Terms & Conditions", "item": "https://allyonoapp.app/terms" }
+        ]
+      }
+    ]
+  };
+
   return (
     <div className="min-h-screen bg-bg-dark text-white pb-16">
       <SeoHead
-        title="Terms & Conditions | AllyonoApp"
-        description="Terms and conditions of use for AllyonoApp.app informational gaming app directory."
+        title="Terms & Conditions | AllyonoApp Platform Usage Agreement"
+        description="Review the Terms and Conditions for AllyonoApp.app covering informational directory scope, disclaimer policies, and acceptable user conduct."
         canonicalUrl="https://allyonoapp.app/terms"
+        jsonLd={termsSchema}
       />
       <SecondaryNav />
 

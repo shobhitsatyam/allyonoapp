@@ -8,11 +8,11 @@ export default {
     extend: {
       colors: {
         bg: {
-          dark: '#050505',
-          secondary: '#101010',
-          card: '#161616',
-          cardHover: '#1c1c1c',
-          lightCard: '#FFFFFF',
+          dark: '#f5f5f4',
+          secondary: '#f8f8f6',
+          card: '#ffffff',
+          cardHover: '#f7f7f5',
+          lightCard: '#ffffff',
         },
         gold: {
           DEFAULT: '#F5B928',
@@ -26,9 +26,9 @@ export default {
           badge: '#F39C12',
         },
         muted: {
-          DEFAULT: '#B8B8B8',
-          dark: '#7A7A7A',
-          border: '#2A2A2A',
+          DEFAULT: '#64748b',
+          dark: '#475569',
+          border: '#e2e8f0',
         }
       },
       fontFamily: {
@@ -36,17 +36,17 @@ export default {
         display: ['Outfit', 'Plus Jakarta Sans', 'sans-serif'],
       },
       boxShadow: {
-        'gold-sm': '0 0 10px rgba(245, 185, 40, 0.2)',
-        'gold-md': '0 0 20px rgba(245, 185, 40, 0.3)',
-        'gold-lg': '0 0 35px rgba(245, 185, 40, 0.4)',
-        'card-dark': '0 8px 30px rgba(0, 0, 0, 0.8)',
-        'card-light': '0 4px 20px rgba(0, 0, 0, 0.08)',
+        'gold-sm': '0 0 10px rgba(245, 185, 40, 0.18)',
+        'gold-md': '0 0 20px rgba(245, 185, 40, 0.22)',
+        'gold-lg': '0 0 35px rgba(245, 185, 40, 0.28)',
+        'card-dark': '0 10px 30px rgba(15, 23, 42, 0.08)',
+        'card-light': '0 4px 20px rgba(15, 23, 42, 0.06)',
       },
       backgroundImage: {
         'gold-gradient': 'linear-gradient(135deg, #FFD35A 0%, #F5B928 50%, #D4900C 100%)',
         'gold-gradient-hover': 'linear-gradient(135deg, #FFE082 0%, #FFC933 50%, #E5A510 100%)',
-        'card-gradient': 'linear-gradient(180deg, #181818 0%, #0F0F0F 100%)',
-        'hero-gradient': 'radial-gradient(circle at 70% 30%, rgba(245, 185, 40, 0.15) 0%, rgba(5, 5, 5, 0) 70%)',
+        'card-gradient': 'linear-gradient(180deg, #ffffff 0%, #f8fafc 100%)',
+        'hero-gradient': 'radial-gradient(circle at 70% 30%, rgba(245, 185, 40, 0.16) 0%, rgba(245, 245, 244, 0) 70%)',
         'tab-gold': 'linear-gradient(180deg, #FFD35A 0%, #F5B928 100%)',
       }
     },

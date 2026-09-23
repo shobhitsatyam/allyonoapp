@@ -48,12 +48,37 @@ export default function HowToPlayPage() {
     return true;
   });
 
+  const howToPlaySchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "name": "Gaming App Guides, Safety Tutorials & How to Play | AllyonoApp",
+        "description": "Educational gaming tutorials covering APK verification, Android permissions, RNG fairness, and player safety.",
+        "url": "https://allyonoapp.app/how-to-play",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "AllyonoApp",
+          "url": "https://allyonoapp.app"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allyonoapp.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Guides", "item": "https://allyonoapp.app/how-to-play" }
+        ]
+      }
+    ]
+  };
+
   return (
     <div className="min-h-screen bg-bg-dark text-white pb-16">
       <SeoHead
-        title="Yono Gaming App Guides & How to Play | AllyonoApp"
-        description="Educational gaming guides, Android permission safety checks, RNG verification tutorials, and responsible gaming resources on AllyonoApp."
+        title="Gaming App Guides, Safety Tutorials & How to Play | AllyonoApp"
+        description="Explore step-by-step educational gaming guides: Android permission security audits, APK signature verification, RNG mechanics, and responsible gaming on AllyonoApp."
         canonicalUrl="https://allyonoapp.app/how-to-play"
+        jsonLd={howToPlaySchema}
       />
       <SecondaryNav />
 

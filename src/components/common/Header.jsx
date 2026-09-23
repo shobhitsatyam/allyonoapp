@@ -22,7 +22,7 @@ export default function Header({ onOpenTelegram }) {
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-bg-dark/95 backdrop-blur-md border-b border-gold/20 transition-all duration-300">
+    <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200/90 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           
@@ -38,14 +38,14 @@ export default function Header({ onOpenTelegram }) {
             {/* Custom Text Logo */}
             <div className="flex flex-col">
               <div className="flex items-center gap-1.5">
-                <span className="font-display font-black text-2xl tracking-wider text-white">
+                <span className="font-display font-black text-2xl tracking-wider text-slate-900">
                   ALLY<span className="text-gold">ONO</span>
                 </span>
                 <span className="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold bg-gold/15 text-gold border border-gold/30">
                   APP
                 </span>
               </div>
-              <span className="text-[11px] font-semibold text-muted tracking-widest uppercase -mt-0.5">
+              <span className="text-[11px] font-semibold text-slate-500 tracking-widest uppercase -mt-0.5">
                 APP DIRECTORY
               </span>
             </div>

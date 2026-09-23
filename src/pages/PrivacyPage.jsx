@@ -5,12 +5,32 @@ import DisclaimerBanner from '../components/common/DisclaimerBanner';
 import { Shield, Lock, Eye } from 'lucide-react';
 
 export default function PrivacyPage() {
+  const privacySchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "Privacy Policy | AllyonoApp Data Protection & User Privacy",
+        "description": "Read the official Privacy Policy for AllyonoApp explaining data protection and user privacy commitments.",
+        "url": "https://allyonoapp.app/privacy"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allyonoapp.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Privacy Policy", "item": "https://allyonoapp.app/privacy" }
+        ]
+      }
+    ]
+  };
+
   return (
     <div className="min-h-screen bg-bg-dark text-white pb-16">
       <SeoHead
-        title="Privacy Policy | AllyonoApp"
-        description="Read the Privacy Policy for AllyonoApp explaining data protection, analytics, and privacy commitments."
+        title="Privacy Policy | AllyonoApp Data Protection & User Privacy"
+        description="Read the official Privacy Policy for AllyonoApp explaining data protection, minimal telemetry, cookie practices, and user privacy commitments."
         canonicalUrl="https://allyonoapp.app/privacy"
+        jsonLd={privacySchema}
       />
       <SecondaryNav />
 

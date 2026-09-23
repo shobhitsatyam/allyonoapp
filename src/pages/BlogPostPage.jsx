@@ -23,6 +23,12 @@ export default function BlogPostPage() {
   if (!post) {
     return (
       <div className="min-h-screen bg-bg-dark text-white flex items-center justify-center p-4">
+        <SeoHead
+          title="Article Not Found | AllyonoApp"
+          description="The requested blog article could not be located on AllyonoApp."
+          canonicalUrl="https://allyonoapp.app/blog"
+          robots="noindex, follow"
+        />
         <div className="text-center max-w-md p-8 rounded-2xl bg-[#121212] border border-neutral-800">
           <AlertTriangle className="w-12 h-12 text-gold mx-auto mb-3" />
           <h2 className="text-2xl font-bold mb-2">Article Not Found</h2>
@@ -43,10 +49,11 @@ export default function BlogPostPage() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Article",
+        "@type": "BlogPosting",
         "headline": post.title,
         "description": post.summary,
         "datePublished": post.date,
+        "mainEntityOfPage": `https://allyonoapp.app/blog/${post.slug}`,
         "author": {
           "@type": "Person",
           "name": post.author
@@ -76,6 +83,7 @@ export default function BlogPostPage() {
         title={`${post.title} | AllyonoApp Blog`}
         description={post.summary}
         canonicalUrl={`https://allyonoapp.app/blog/${post.slug}`}
+        ogType="article"
         jsonLd={postSchema}
       />
       <SecondaryNav />

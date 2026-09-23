@@ -9,9 +9,10 @@ export default function NotFoundPage() {
   return (
     <div className="min-h-screen bg-bg-dark text-white flex flex-col justify-between">
       <SeoHead
-        title="Page Not Found | AllyonoApp"
+        title="Page Not Found (404) | AllyonoApp"
         description="The requested page could not be found on AllyonoApp."
         canonicalUrl="https://allyonoapp.app/404"
+        robots="noindex, follow"
       />
       
       <div>

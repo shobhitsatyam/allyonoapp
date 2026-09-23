@@ -3,193 +3,499 @@
   <!-- Core Static Pages -->
   <url>
     <loc>https://allyonoapp.app/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/apps</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/new-apps</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/how-to-play</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/blog</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://allyonoapp.app/contact</loc>
-    <lastmod>2026-09-11</lastmod>
+    <loc>https://allyonoapp.app/about</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://allyonoapp.app/about</loc>
-    <lastmod>2026-09-11</lastmod>
+    <loc>https://allyonoapp.app/contact</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/privacy</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/terms</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/disclaimer</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
-  <!-- App Detail Pages -->
+  <!-- Application Detail Pages (62 Apps) -->
   <url>
     <loc>https://allyonoapp.app/app/maha-games</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/app/hi-rummy</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/app/jaiho-win</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/app/rumble-rummy</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/app/love-rummy</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/app/share-slots</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/app/club-inr</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/app/game-rummy</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/app/dhan-game</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/app/rummy-77</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/app/rummy-ludo</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/hindi-777</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/boss-rummy</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/rummy-888</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/max-rummy</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/joy-rummy</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/inr-rummy</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/jaiho-91</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/diwa-slots</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/good-slots</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/diwa-top</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/diwa-win</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/diwa-vip</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/gold-rummy</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/diwa-x</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/win-rummy</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/yono-vip</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/spin-winner</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/yono-arcade</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/yono-game</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/yono-777</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/yono-rummy</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/567-slots</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/spin-crush</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/spin101</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/spin-777</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/spin-gold</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/ind-slots</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/neta-vip</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/mbm-bet</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/bingo-101</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/789-jackpot</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/rummy-91</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/jaiho-spin</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/jaiho-arcade</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/abc-rummy</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/jaiho-rummy</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/jaiho-777</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/mqm-bet</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/yn777</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/bet213</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/saga-slots</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/ind-club</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/ind-rummy</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/jaiho-slots</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/raja-luck</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/money-rummy</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/diwa-play</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/top-rummy</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/neta-vip-app</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/slot-spin</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/ok-rummy</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Educational Guide Detail Pages -->
+  <!-- Educational Guide Pages (6 Guides) -->
   <url>
     <loc>https://allyonoapp.app/guide/how-to-check-app-permissions</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/guide/how-to-identify-official-app-sources</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/guide/understanding-app-categories-mechanics</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/guide/account-security-otp-protection</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/guide/responsible-gaming-guidelines</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/guide/troubleshooting-app-performance</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
-  <!-- Blog Post Pages -->
+  <!-- Editorial & Research Blog Posts (4 Posts) -->
   <url>
     <loc>https://allyonoapp.app/blog/2026-mobile-gaming-app-security-standards</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/blog/understanding-rng-certification-fair-play</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/blog/responsible-gaming-habits-in-digital-era</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://allyonoapp.app/blog/evolution-of-indian-rummy-digital-platforms</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

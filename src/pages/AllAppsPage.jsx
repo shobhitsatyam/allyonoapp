@@ -37,12 +37,72 @@ export default function AllAppsPage() {
     });
   }, [activeCategory, searchQuery, sortBy]);
 
+  const categorySeo = useMemo(() => {
+    switch (activeCategory) {
+      case 'rummy':
+        return {
+          title: "Yono Rummy Apps Directory (21 Games) & Downloads | AllyonoApp",
+          description: "Browse verified Yono Rummy apps, card game variants, signup bonus details, and fast UPI withdrawal thresholds on AllyonoApp."
+        };
+      case 'slots':
+        return {
+          title: "Yono Slots Games Directory & High-RTP Slot Apps | AllyonoApp",
+          description: "Explore Yono slots games, reel machines, feature guides, and verified Android download packages on AllyonoApp."
+        };
+      case 'spin':
+        return {
+          title: "Yono Spin & Win Apps Directory & Lucky Wheel Games | AllyonoApp",
+          description: "Discover Yono Spin and lucky wheel gaming applications with daily check-in rewards and instant payout information on AllyonoApp."
+        };
+      case 'gaming':
+        return {
+          title: "Yono Gaming & Card Apps Directory | AllyonoApp",
+          description: "Explore multiplayer Yono gaming apps, multi-table card platforms, and verified technical specifications on AllyonoApp."
+        };
+      case 'new':
+        return {
+          title: "New Yono Gaming Apps 2026 – Latest Released Versions | AllyonoApp",
+          description: "Discover new Yono games and newly updated applications for 2026 with verified package security on AllyonoApp."
+        };
+      default:
+        return {
+          title: "All Yono Games Directory (62 Apps) & Specifications | AllyonoApp",
+          description: "Browse the complete directory of 62 Yono games, gaming app information, version specifications, and safety details on AllyonoApp."
+        };
+    }
+  }, [activeCategory]);
+
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "name": categorySeo.title,
+        "description": categorySeo.description,
+        "url": "https://allyonoapp.app/apps",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "AllyonoApp",
+          "url": "https://allyonoapp.app"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allyonoapp.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Apps", "item": "https://allyonoapp.app/apps" }
+        ]
+      }
+    ]
+  };
+
   return (
     <div className="min-h-screen bg-bg-dark text-white">
       <SeoHead
-        title="Yono Games All Apps & Gaming App Information | AllyonoApp"
-        description="Browse the complete directory of Yono games all apps, gaming app information, version specifications, and safety details on AllyonoApp."
+        title={categorySeo.title}
+        description={categorySeo.description}
         canonicalUrl="https://allyonoapp.app/apps"
+        jsonLd={collectionSchema}
       />
       <SecondaryNav />
 

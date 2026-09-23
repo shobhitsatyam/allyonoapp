@@ -9,12 +9,37 @@ import { Sparkles, Calendar, Zap, ShieldCheck } from 'lucide-react';
 export default function NewAppsPage() {
   const newApps = APPS_DATA.filter((app) => app.isNew);
 
+  const newAppsSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "name": "New Yono Games (2026 Edition) & Latest Released Apps | AllyonoApp",
+        "description": "Discover newly released and updated Yono games for 2026 with verified package security on AllyonoApp.",
+        "url": "https://allyonoapp.app/new-apps",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "AllyonoApp",
+          "url": "https://allyonoapp.app"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allyonoapp.app/" },
+          { "@type": "ListItem", "position": 2, "name": "New Apps", "item": "https://allyonoapp.app/new-apps" }
+        ]
+      }
+    ]
+  };
+
   return (
     <div className="min-h-screen bg-bg-dark text-white">
       <SeoHead
-        title="New Yono Games & Gaming App Updates | AllyonoApp"
-        description="Discover new Yono games, latest gaming app updates, version details, and new app information on AllyonoApp."
+        title="New Yono Games (2026 Edition) & Latest Released Apps | AllyonoApp"
+        description="Discover newly released and updated Yono games for 2026 with verified package security, updated bonus tiers, and latest features on AllyonoApp."
         canonicalUrl="https://allyonoapp.app/new-apps"
+        jsonLd={newAppsSchema}
       />
       <SecondaryNav />
 

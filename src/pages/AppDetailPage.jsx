@@ -36,6 +36,12 @@ export default function AppDetailPage() {
   if (!app) {
     return (
       <div className="min-h-screen bg-bg-dark text-white flex items-center justify-center p-4">
+        <SeoHead
+          title="Application Not Found | AllyonoApp"
+          description="The requested application guide does not exist or may have been relocated on AllyonoApp."
+          canonicalUrl="https://allyonoapp.app/apps"
+          robots="noindex, follow"
+        />
         <div className="text-center max-w-md p-8 rounded-2xl bg-[#121212] border border-neutral-800">
           <AlertTriangle className="w-12 h-12 text-gold mx-auto mb-3" />
           <h2 className="text-2xl font-bold mb-2">Application Not Found</h2>
@@ -65,6 +71,7 @@ export default function AppDetailPage() {
         "applicationCategory": "GameApplication",
         "softwareVersion": app.version,
         "fileSize": app.size,
+        "image": app.iconImg,
         "author": {
           "@type": "Organization",
           "name": app.developer || "Interactive Studio"
@@ -105,9 +112,11 @@ export default function AppDetailPage() {
   return (
     <div className="min-h-screen bg-bg-dark text-white pb-16">
       <SeoHead
-        title={`${app.name} Information, Features & Details | AllyonoApp`}
-        description={`Learn about ${app.name}, including its app information, features, compatibility, version details and important safety considerations.`}
+        title={`${app.name} App Download, Features & Specs Guide | AllyonoApp`}
+        description={`Complete guide for ${app.name}: features, Android ${app.compatibility}, verified APK size (${app.size}), safety permissions audit, and withdrawal thresholds.`}
         canonicalUrl={`https://allyonoapp.app/app/${app.slug}`}
+        ogImage={app.iconImg || "https://allyonoapp.app/og-image.png"}
+        ogType="article"
         jsonLd={appSchema}
       />
       <SecondaryNav />
@@ -193,7 +202,7 @@ export default function AppDetailPage() {
                 <a
                   href={app.downloadUrl}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   className="flex-1 md:flex-initial inline-flex items-center justify-center gap-2 py-3 px-6 rounded-xl bg-gold-gradient hover:bg-gold-gradient-hover text-black font-extrabold text-xs sm:text-sm tracking-wider uppercase shadow-gold-md hover:scale-105 active:scale-95 transition-all"
                 >
                   <Download className="w-4 h-4 text-black" />

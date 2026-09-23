@@ -4,21 +4,73 @@
 
 @layer base {
   :root {
-    --bg-dark: #050505;
-    --bg-secondary: #101010;
-    --bg-card: #141414;
+    --bg-dark: #f5f5f4;
+    --bg-secondary: #f8f8f6;
+    --bg-card: #ffffff;
     --gold: #F5B928;
     --gold-bright: #FFD35A;
     --gold-border: rgba(245, 185, 40, 0.35);
     --gold-glow: rgba(245, 185, 40, 0.25);
-    --text-muted: #B8B8B8;
+    --text-muted: #475569;
+  }
+
+  * {
+    box-sizing: border-box;
   }
 
   body {
     background-color: var(--bg-dark);
-    color: #FFFFFF;
+    color: #1f2937;
     font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
     overflow-x: hidden;
+  }
+
+  body .bg-bg-dark { background-color: #f5f5f4 !important; }
+  body .bg-bg-secondary { background-color: #f8f8f6 !important; }
+  body .bg-bg-card { background-color: #ffffff !important; }
+  body .bg-neutral-900 { background-color: #f8fafc !important; }
+  body .bg-neutral-800 { background-color: #f1f5f9 !important; }
+  body .bg-neutral-950 { background-color: #f9fafb !important; }
+  body .bg-\[\#050505\],
+  body .bg-\[\#060606\],
+  body .bg-\[\#070707\],
+  body .bg-\[\#080808\],
+  body .bg-\[\#090909\],
+  body .bg-\[\#0A0A0A\],
+  body .bg-\[\#0C0C0C\],
+  body .bg-\[\#0D0D0D\],
+  body .bg-\[\#0E0E0E\],
+  body .bg-\[\#0F0F0F\],
+  body .bg-\[\#101010\],
+  body .bg-\[\#111111\],
+  body .bg-\[\#121212\],
+  body .bg-\[\#141414\],
+  body .bg-\[\#161616\],
+  body .bg-\[\#181818\],
+  body .bg-\[\#1c1c1c\] {
+    background-color: #ffffff !important;
+  }
+
+  body .text-white { color: #1f2937 !important; }
+  body .text-neutral-200 { color: #334155 !important; }
+  body .text-neutral-300 { color: #475569 !important; }
+  body .text-neutral-400 { color: #64748b !important; }
+  body .text-neutral-500 { color: #6b7280 !important; }
+  body .text-neutral-600 { color: #475569 !important; }
+  body .border-neutral-800,
+  body .border-neutral-900,
+  body .border-neutral-700,
+  body .border-neutral-700\/50,
+  body .border-\[\#121212\],
+  body .border-\[\#111111\],
+  body .border-\[\#0F0F0F\],
+  body .border-\[\#0D0D0D\],
+  body .border-\[\#080808\],
+  body .border-\[\#050505\] {
+    border-color: #e2e8f0 !important;
+  }
+  body .border-gold\/30, body .border-gold\/40, body .border-gold\/50 {
+    border-color: rgba(245, 185, 40, 0.3) !important;
   }
 
   /* Custom scrollbar */
@@ -27,12 +79,12 @@
     height: 8px;
   }
   ::-webkit-scrollbar-track {
-    background: #0A0A0A;
+    background: #f1f5f9;
   }
   ::-webkit-scrollbar-thumb {
-    background: #2A2A2A;
+    background: #cbd5e1;
     border-radius: 4px;
-    border: 1px solid rgba(245, 185, 40, 0.2);
+    border: 1px solid rgba(245, 185, 40, 0.18);
   }
   ::-webkit-scrollbar-thumb:hover {
     background: #F5B928;
@@ -41,15 +93,15 @@
 
 @layer utilities {
   .text-glow {
-    text-shadow: 0 0 16px rgba(245, 185, 40, 0.5);
+    text-shadow: 0 0 16px rgba(245, 185, 40, 0.35);
   }
 
   .box-glow {
-    box-shadow: 0 0 25px rgba(245, 185, 40, 0.15);
+    box-shadow: 0 0 25px rgba(245, 185, 40, 0.12);
   }
 
   .box-glow-strong {
-    box-shadow: 0 0 35px rgba(245, 185, 40, 0.35);
+    box-shadow: 0 0 35px rgba(245, 185, 40, 0.2);
   }
 
   .border-gold-subtle {
@@ -57,18 +109,18 @@
   }
 
   .border-gold-glow {
-    border-color: rgba(245, 185, 40, 0.5);
-    box-shadow: 0 0 15px rgba(245, 185, 40, 0.2);
+    border-color: rgba(245, 185, 40, 0.45);
+    box-shadow: 0 0 15px rgba(245, 185, 40, 0.16);
   }
 
   .bg-glass {
-    background: rgba(16, 16, 16, 0.85);
+    background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
   }
 
   .gold-gradient-text {
-    background: linear-gradient(135deg, #FFF0C2 0%, #FFD35A 40%, #F5B928 70%, #E5A510 100%);
+    background: linear-gradient(135deg, #8a5f00 0%, #dba927 40%, #f5b928 70%, #f1c65e 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -83,17 +135,17 @@
   background: linear-gradient(180deg, #FFD35A 0%, #F5B928 100%);
   color: #000000;
   font-weight: 700;
-  box-shadow: 0 4px 15px rgba(245, 185, 40, 0.35);
+  box-shadow: 0 4px 15px rgba(245, 185, 40, 0.2);
 }
 
 .tab-inactive {
-  background: #121212;
-  color: #B8B8B8;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: #f8fafc;
+  color: #475569;
+  border: 1px solid rgba(148, 163, 184, 0.25);
 }
 .tab-inactive:hover {
-  background: #1c1c1c;
-  color: #FFFFFF;
+  background: #f1f5f9;
+  color: #0f172a;
   border-color: rgba(245, 185, 40, 0.3);
 }
 

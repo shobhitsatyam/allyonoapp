@@ -211,6 +211,8 @@ export default function Footer({ onOpenTelegram }) {
           <div className="flex items-center gap-4 text-neutral-400">
             <Link to="/" className="hover:text-gold transition-colors">Home</Link>
             <span>•</span>
+            <Link to="/about" className="hover:text-gold transition-colors">About</Link>
+            <span>•</span>
             <Link to="/privacy" className="hover:text-gold transition-colors">Privacy</Link>
             <span>•</span>
             <Link to="/terms" className="hover:text-gold transition-colors">Terms</Link>

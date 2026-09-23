@@ -25,12 +25,37 @@ export default function BlogPage() {
     return true;
   });
 
+  const blogSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Blog",
+        "name": "Gaming Industry Research, Analysis & News | AllyonoApp Blog",
+        "description": "Editorial research and in-depth analysis of mobile gaming cybersecurity, cryptographic RNG fairness, and player safety.",
+        "url": "https://allyonoapp.app/blog",
+        "publisher": {
+          "@type": "Organization",
+          "name": "AllyonoApp",
+          "logo": "https://allyonoapp.app/favicon.svg"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://allyonoapp.app/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://allyonoapp.app/blog" }
+        ]
+      }
+    ]
+  };
+
   return (
     <div className="min-h-screen bg-bg-dark text-white pb-16">
       <SeoHead
-        title="Gaming Industry Insights & Analysis | AllyonoApp"
-        description="In-depth research and editorial analysis of mobile gaming security standards, RNG algorithms, and player protection trends on AllyonoApp."
+        title="Gaming Industry Research, Analysis & News | AllyonoApp Blog"
+        description="In-depth research and editorial analysis of mobile gaming security standards, RNG fairness algorithms, and player protection trends on AllyonoApp."
         canonicalUrl="https://allyonoapp.app/blog"
+        jsonLd={blogSchema}
       />
       <SecondaryNav />
 
