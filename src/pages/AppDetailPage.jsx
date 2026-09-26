@@ -171,11 +171,13 @@ export default function AppDetailPage() {
                 </h1>
 
                 <div className="flex flex-wrap items-center gap-4 text-xs text-neutral-400 pt-1">
-                  <div className="flex items-center gap-1 text-[#008FA8] font-bold">
-                    <Star className="w-4 h-4 fill-[#00B8D9]" />
-                    <span>{app.rating} / 5.0</span>
-                    <span className="text-neutral-500 font-normal">({app.reviewsCount} reviews)</span>
-                  </div>
+                  {app.rating != null && (
+                    <div className="flex items-center gap-1 text-[#008FA8] font-bold">
+                      <Star className="w-4 h-4 fill-[#00B8D9]" />
+                      <span>{app.rating} / 5.0</span>
+                      <span className="text-neutral-500 font-normal">({app.reviewsCount} reviews)</span>
+                    </div>
+                  )}
                   <div className="flex items-center gap-1">
                     <HardDrive className="w-3.5 h-3.5 text-neutral-500" />
                     <span>{app.size}</span>
@@ -257,7 +259,7 @@ export default function AppDetailPage() {
               </div>
             </div>
 
-            {/* Key Features Section */}
+            {app.features.length > 0 && (
             <div className="p-6 sm:p-8 rounded-2xl bg-[#111111] border border-neutral-800 space-y-4">
               <h2 className="font-display font-extrabold text-xl text-[#172033] flex items-center gap-2">
                 <span className="w-2 h-6 bg-[#00B8D9] rounded-full" />
@@ -275,16 +277,17 @@ export default function AppDetailPage() {
                 ))}
               </ul>
             </div>
+            )}
 
-            {/* Permissions Checklist Section */}
+            {app.permissions.length > 0 && (
             <div id="verification" className="p-6 sm:p-8 rounded-2xl bg-white border border-[#D9EEF2] space-y-4">
               <div className="flex items-center justify-between">
                 <h2 className="font-display font-extrabold text-xl text-[#172033] flex items-center gap-2">
                   <span className="w-2 h-6 bg-[#00B8D9] rounded-full" />
                   <span>Android Permissions Audit</span>
                 </h2>
-                <span className="text-xs font-bold text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 px-2.5 py-1 rounded-full">
-                  Audited 2026
+                <span className={`text-xs font-bold px-2.5 py-1 rounded-full ${app.isAudited === false ? 'text-neutral-500 bg-neutral-500/10 border border-neutral-500/30' : 'text-emerald-400 bg-emerald-500/10 border border-emerald-500/30'}`}>
+                  {app.isAudited === false ? 'Not independently audited' : 'Audited 2026'}
                 </span>
               </div>
               <p className="text-xs text-[#64748B] leading-relaxed">
@@ -313,6 +316,7 @@ export default function AppDetailPage() {
                 ))}
               </div>
             </div>
+            )}
 
             {/* Safe Installation & Verification Guide */}
             <div className="p-6 sm:p-8 rounded-2xl bg-white border border-[#D9EEF2] space-y-4">
@@ -333,7 +337,7 @@ export default function AppDetailPage() {
               </div>
             </div>
 
-            {/* Frequently Asked Questions */}
+            {app.faqs.length > 0 && (
             <div className="p-6 sm:p-8 rounded-2xl bg-white border border-[#D9EEF2] space-y-4">
               <h2 className="font-display font-extrabold text-xl text-[#172033] flex items-center gap-2">
                 <span className="w-2 h-6 bg-[#00B8D9] rounded-full" />
@@ -365,6 +369,7 @@ export default function AppDetailPage() {
                 ))}
               </div>
             </div>
+            )}
 
           </div>
 
@@ -396,7 +401,7 @@ export default function AppDetailPage() {
               </div>
             </div>
 
-            {/* Safety Score Card */}
+            {app.isAudited !== false && (
             <div className="p-6 rounded-2xl bg-gradient-to-br from-[#181818] to-[#0E0E0E] border border-gold/30 space-y-3">
               <div className="flex items-center justify-between">
                 <span className="text-xs font-bold text-gold uppercase tracking-wider">
@@ -411,6 +416,7 @@ export default function AppDetailPage() {
                 Standard minimal Android permissions, valid TLS encryption and certified random table shuffler.
               </p>
             </div>
+            )}
 
             {/* Related Applications */}
             <div className="p-6 rounded-2xl bg-[#111111] border border-neutral-800 space-y-4">

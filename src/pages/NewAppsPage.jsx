@@ -71,8 +71,8 @@ export default function NewAppsPage() {
 
         {/* Cards List */}
         <div className="flex flex-col gap-3.5 mb-10">
-          {newApps.map((app, index) => (
-            <AppCard key={app.id} app={app} index={index + 1} viewMode="list" />
+          {newApps.map((app) => (
+            <AppCard key={app.id} app={app} viewMode="list" />
           ))}
         </div>
 

@@ -26,11 +26,17 @@ export default function App() {
   const [telegramOpen, setTelegramOpen] = useState(false);
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#f5f5f4] text-slate-900 font-sans selection:bg-gold selection:text-black">
+    <div className="flex flex-col min-h-screen bg-white text-black font-sans selection:bg-gold selection:text-black">
       <ScrollToTop />
 
       {/* Sticky Header */}
       <Header onOpenTelegram={() => setTelegramOpen(true)} />
+
+      <img
+        src="/yono-games-banner.png.png"
+        alt="Yono All Games"
+        className="block h-auto w-full"
+      />
 
       {/* Main Content Area */}
       <main className="flex-grow">

@@ -3,30 +3,21 @@ import { Link } from 'react-router-dom';
 import { Star, Download } from 'lucide-react';
 import AppIconBadge from './AppIconBadge';
 
-export default function AppCard({ app, index = null, viewMode = 'list' }) {
-  // Determine if rank badge is shown (Yono Bonus has no badge, Joy Rummy is 1, Ind Rummy is 2...)
-  const rankNum = app.rank !== undefined ? app.rank : (index !== null && index > 0 ? index : null);
+export default function AppCard({ app, viewMode = 'list' }) {
   const downloadHref = app.downloadUrl || `/app/${app.slug}`;
   const isExternalDownload = downloadHref.startsWith('http');
 
   if (viewMode === 'grid') {
     return (
       <div className="group relative flex flex-col justify-between rounded-2xl bg-white border border-[#D9EEF2] hover:border-[#00B8D9] hover:shadow-[0_8px_24px_rgba(0,184,217,0.12)] transition-all duration-300 p-5">
-        {rankNum && (
-          <div className="absolute -top-2.5 -left-2.5 min-w-6 h-6 px-1.5 rounded-full bg-[#E52B2B] text-white font-black text-xs flex items-center justify-center shadow-md z-10 border border-white/40">
-            {rankNum}
-          </div>
-        )}
         <div>
-          {/* Top Row: Serial, Rating */}
-          <div className="flex items-center justify-between gap-2 mb-4">
-            <span className="font-display font-black text-sm text-[#008FA8] bg-[#E6F9FC] px-2 py-0.5 rounded-md">
-              #{app.serial}
-            </span>
-            <div className="flex items-center gap-1 text-xs font-bold text-[#008FA8] bg-[#F8FAFC] border border-[#D9EEF2] px-2 py-0.5 rounded-md">
-              <Star className="w-3.5 h-3.5 fill-[#00B8D9] text-[#00B8D9]" />
-              <span>{app.rating}</span>
-            </div>
+          <div className="flex items-center justify-end gap-2 mb-4">
+            {app.rating != null && (
+              <div className="flex items-center gap-1 text-xs font-bold text-[#008FA8] bg-[#F8FAFC] border border-[#D9EEF2] px-2 py-0.5 rounded-md">
+                <Star className="w-3.5 h-3.5 fill-[#00B8D9] text-[#00B8D9]" />
+                <span>{app.rating}</span>
+              </div>
+            )}
           </div>
 
           {/* App Icon & Name */}
@@ -91,13 +82,6 @@ export default function AppCard({ app, index = null, viewMode = 'list' }) {
   return (
     <div className="group relative flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 p-3.5 sm:p-4 rounded-2xl bg-white text-[#172033] border border-[#D9EEF2] hover:border-[#00B8D9] hover:shadow-[0_8px_24px_rgba(0,184,217,0.12)] transition-all duration-300">
       
-      {/* Top Left Red Rank Badge */}
-      {rankNum && (
-        <div className="absolute -top-2.5 -left-2.5 min-w-6 h-6 px-1.5 rounded-full bg-[#E52B2B] text-white font-black text-xs flex items-center justify-center shadow-md z-10 border border-white/60">
-          {rankNum}
-        </div>
-      )}
-
       {/* Left side: App Icon, Details */}
       <div className="flex items-center gap-3 sm:gap-4 flex-1 min-w-0">
         

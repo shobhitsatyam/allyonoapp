@@ -62,7 +62,19 @@
     <priority>0.5</priority>
   </url>
 
-  <!-- Application Detail Pages (62 Apps) -->
+  <!-- Application Detail Pages (64 Apps) -->
+  <url>
+    <loc>https://allyonoapp.app/app/rummy-zip</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/diwa-luck</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://allyonoapp.app/app/maha-games</loc>
     <lastmod>2026-09-14</lastmod>
