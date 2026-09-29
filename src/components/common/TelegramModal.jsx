@@ -49,7 +49,7 @@ export default function TelegramModal({ isOpen, onClose }) {
         {/* Action Button */}
         <div className="mt-6 flex flex-col gap-3">
           <a
-            href="https://t.me/AllYonowebsit"
+            href="https://t.me/+_arXe21k3xU1YmQ1"
             target="_blank"
             rel="noopener noreferrer"
             onClick={onClose}

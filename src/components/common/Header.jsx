@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Send, ShieldCheck, Sparkles } from 'lucide-react';
+import logoImg from '../../assets/logo.png';
 
 export default function Header({ onOpenTelegram }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -28,12 +29,12 @@ export default function Header({ onOpenTelegram }) {
           
           {/* Brand / Logo */}
           <Link to="/" className="flex items-center gap-3 group focus:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-lg p-1">
-            {/* Custom Logo Mark */}
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-gold-bright via-gold to-gold-dark p-0.5 shadow-gold-sm group-hover:shadow-gold-md transition-all">
-              <div className="w-full h-full bg-bg-secondary rounded-[10px] flex items-center justify-center">
-                <span className="font-display font-extrabold text-lg text-gold group-hover:scale-110 transition-transform">A</span>
-              </div>
-            </div>
+            {/* Brand Logo */}
+            <img
+              src={logoImg}
+              alt="All Yono Logo"
+              className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl object-contain drop-shadow-sm group-hover:scale-105 transition-transform"
+            />
 
             {/* Custom Text Logo */}
             <div className="flex flex-col">
@@ -71,7 +72,7 @@ export default function Header({ onOpenTelegram }) {
           {/* CTA Button: Join Community / Telegram */}
           <div className="hidden sm:flex items-center gap-3">
             <a
-              href="https://t.me/AllYonowebsit"
+              href="https://t.me/+_arXe21k3xU1YmQ1"
               target="_blank"
               rel="noopener noreferrer"
               id="header-telegram-btn"
@@ -85,7 +86,7 @@ export default function Header({ onOpenTelegram }) {
           {/* Mobile Menu Button */}
           <div className="flex sm:hidden items-center gap-2">
             <a
-              href="https://t.me/AllYonowebsit"
+              href="https://t.me/+_arXe21k3xU1YmQ1"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-gold border border-gold/40 rounded-lg hover:bg-gold/10"
@@ -129,7 +130,7 @@ export default function Header({ onOpenTelegram }) {
           </nav>
           <div className="mt-4 pt-4 border-t border-neutral-800 flex flex-col gap-2">
             <a
-              href="https://t.me/AllYonowebsit"
+              href="https://t.me/+_arXe21k3xU1YmQ1"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setMobileMenuOpen(false)}

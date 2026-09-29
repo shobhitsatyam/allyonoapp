@@ -59,7 +59,7 @@ export default function Footer({ onOpenTelegram }) {
           </p>
           <div className="pt-2">
             <a
-              href="https://t.me/AllYonowebsit"
+              href="https://t.me/+_arXe21k3xU1YmQ1"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gold-gradient hover:bg-gold-gradient-hover text-black font-extrabold text-xs uppercase tracking-wider shadow-gold-sm hover:scale-105 transition-all"
