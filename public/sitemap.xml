@@ -62,7 +62,43 @@
     <priority>0.5</priority>
   </url>
 
-  <!-- Application Detail Pages (64 Apps) -->
+  <!-- Application Detail Pages (68 Apps) -->
+  <url>
+    <loc>https://allyonoapp.app/app/jaiho-play</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/diwa-ok</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/diwa-rummy</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/max-rummy</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/gold-rummy</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://allyonoapp.app/app/vip-rummy</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://allyonoapp.app/app/rummy-zip</loc>
     <lastmod>2026-09-14</lastmod>
@@ -160,12 +196,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://allyonoapp.app/app/max-rummy</loc>
-    <lastmod>2026-09-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://allyonoapp.app/app/joy-rummy</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -209,12 +239,6 @@
   </url>
   <url>
     <loc>https://allyonoapp.app/app/diwa-vip</loc>
-    <lastmod>2026-09-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://allyonoapp.app/app/gold-rummy</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

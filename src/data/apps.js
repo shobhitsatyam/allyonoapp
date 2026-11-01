@@ -1,7 +1,455 @@
 export const APPS_DATA = [
   {
+    "id": 65,
+    "serial": "01",
+    "rank": 1,
+    "name": "JaiHo Play",
+    "slug": "jaiho-play",
+    "category": "Gaming",
+    "subCategory": "Gaming / Multi-Table",
+    "isNew": true,
+    "isFeatured": true,
+    "tag": "New 2026",
+    "badgeInfo": "Sign Up Bonus ₹51",
+    "thresholdInfo": "Min. Withdraw ₹100",
+    "bonus": "₹51",
+    "minimumWithdrawal": "₹100",
+    "downloadUrl": "https://playjaiho.com/?code=E4VP7DVC6WC&t=1792160153",
+    "iconImg": "/apps/jaiho-play.webp",
+    "status": "Active",
+    "rating": 4.8,
+    "reviewsCount": "128.0K",
+    "size": "38.0 MB",
+    "version": "v4.5.0 (2026 Edition)",
+    "lastUpdated": "November 2026",
+    "developer": "JaiHo Interactive Studio",
+    "compatibility": "Android 6.0 & above",
+    "iconBg": "from-amber-500 via-red-600 to-slate-900",
+    "iconText": "JAIHO",
+    "iconSubtext": "PLAY",
+    "iconVariant": "all-games",
+    "shortDesc": "Download JaiHo Play APK to enjoy multiplayer card games, slots, and instant ₹100 UPI withdrawals with daily bonus rewards.",
+    "overview": "JaiHo Play is a premier mobile entertainment application offering seamless real-cash card games, slots, and quick tournaments with instant UPI payouts from ₹100.",
+    "features": [
+      "Sign Up Bonus ₹51 on Mobile Verification",
+      "Instant ₹100 Fast UPI & IMPS Withdrawals",
+      "Multiplayer 2-Player and 6-Player High-Speed Tables",
+      "End-to-End TLS 1.3 Encryption Security",
+      "Certified Random Shuffling (RNG) System"
+    ],
+    "specs": {
+      "Package Name": "com.jaihoplay.app2026",
+      "Required Android": "6.0 (Marshmallow) or higher",
+      "Recommended RAM": "2 GB RAM or above",
+      "RNG Certification": "Certified Random Distribution",
+      "SSL Encryption": "TLS 1.3 Verified",
+      "App Category": "Gaming & Card Gaming"
+    },
+    "permissions": [
+      {
+        "name": "Internet Access",
+        "status": "Required",
+        "reason": "Live server synchronization."
+      },
+      {
+        "name": "Storage / Cache",
+        "status": "Required",
+        "reason": "Saves high-res card assets locally to save mobile data."
+      },
+      {
+        "name": "Contacts / SMS",
+        "status": "Not Requested",
+        "reason": "Full privacy maintained."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the minimum withdrawal for JaiHo Play?",
+        "a": "The minimum withdrawal threshold in JaiHo Play is ₹100 via verified UPI and direct bank transfer."
+      },
+      {
+        "q": "How can I claim the signup bonus in JaiHo Play?",
+        "a": "Register with your mobile phone number and complete OTP verification to receive Sign Up Bonus ₹51 in your game wallet."
+      }
+    ],
+    "isAudited": true
+  },
+  {
+    "id": 66,
+    "serial": "02",
+    "rank": 2,
+    "name": "Diwa OK",
+    "slug": "diwa-ok",
+    "category": "Gaming",
+    "subCategory": "Gaming / Multi-Table",
+    "isNew": true,
+    "isFeatured": true,
+    "tag": "New 2026",
+    "badgeInfo": "Sign Up Bonus ₹48",
+    "thresholdInfo": "Min. Withdraw ₹100",
+    "bonus": "₹48",
+    "minimumWithdrawal": "₹100",
+    "downloadUrl": "https://diwaokshare.games?pid=511225975&channel=2010001&pkg=com.diwaok.app",
+    "iconImg": "/apps/diwa-ok.webp",
+    "status": "Active",
+    "rating": 4.7,
+    "reviewsCount": "95.0K",
+    "size": "36.5 MB",
+    "version": "v4.5.0 (2026 Edition)",
+    "lastUpdated": "November 2026",
+    "developer": "Diwa Interactive Studio",
+    "compatibility": "Android 6.0 & above",
+    "iconBg": "from-amber-500 via-yellow-600 to-amber-700",
+    "iconText": "DIWA",
+    "iconSubtext": "OK",
+    "iconVariant": "all-games",
+    "shortDesc": "Download Diwa OK APK to enjoy exciting multiplayer gaming, rapid card tables, and verified instant ₹100 UPI withdrawals.",
+    "overview": "Diwa OK is a premier mobile entertainment application offering seamless real-cash card games, slots, and quick tournaments with instant UPI payouts from ₹100.",
+    "features": [
+      "Sign Up Bonus ₹48 on Mobile Verification",
+      "Instant ₹100 Fast UPI & IMPS Withdrawals",
+      "Multiplayer 2-Player and 6-Player High-Speed Tables",
+      "End-to-End TLS 1.3 Encryption Security",
+      "Certified Random Shuffling (RNG) System"
+    ],
+    "specs": {
+      "Package Name": "com.diwaok.app",
+      "Required Android": "6.0 (Marshmallow) or higher",
+      "Recommended RAM": "2 GB RAM or above",
+      "RNG Certification": "Certified Random Distribution",
+      "SSL Encryption": "TLS 1.3 Verified",
+      "App Category": "Gaming & Card Gaming"
+    },
+    "permissions": [
+      {
+        "name": "Internet Access",
+        "status": "Required",
+        "reason": "Live server synchronization."
+      },
+      {
+        "name": "Storage / Cache",
+        "status": "Required",
+        "reason": "Saves high-res card assets locally to save mobile data."
+      },
+      {
+        "name": "Contacts / SMS",
+        "status": "Not Requested",
+        "reason": "Full privacy maintained."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the minimum withdrawal for Diwa OK?",
+        "a": "The minimum withdrawal threshold in Diwa OK is ₹100 via verified UPI and direct bank transfer."
+      },
+      {
+        "q": "How can I claim the signup bonus in Diwa OK?",
+        "a": "Register with your mobile phone number and complete OTP verification to receive Sign Up Bonus ₹48 in your game wallet."
+      }
+    ],
+    "isAudited": true
+  },
+  {
+    "id": 67,
+    "serial": "03",
+    "rank": 3,
+    "name": "Diwa Rummy",
+    "slug": "diwa-rummy",
+    "category": "Rummy",
+    "subCategory": "Rummy / Real Cash",
+    "isNew": true,
+    "isFeatured": true,
+    "tag": "New 2026",
+    "badgeInfo": "Sign Up Bonus ₹48",
+    "thresholdInfo": "Min. Withdraw ₹100",
+    "bonus": "₹48",
+    "minimumWithdrawal": "₹100",
+    "downloadUrl": "https://diwarummyshare.bet?pid=324691907&channel=2010002&pkg=com.diwarummywhl.app",
+    "iconImg": "/apps/diwa-rummy.webp",
+    "status": "Active",
+    "rating": 4.8,
+    "reviewsCount": "142.0K",
+    "size": "39.0 MB",
+    "version": "v4.5.0 (2026 Edition)",
+    "lastUpdated": "November 2026",
+    "developer": "Diwa Interactive Studio",
+    "compatibility": "Android 6.0 & above",
+    "iconBg": "from-emerald-700 via-teal-800 to-[#082916]",
+    "iconText": "DIWA",
+    "iconSubtext": "RUMMY",
+    "iconVariant": "spade",
+    "shortDesc": "Download Diwa Rummy APK to play classic 13-card rummy, points rummy, and pool games with secure UPI payouts starting at ₹100.",
+    "overview": "Diwa Rummy is a premier mobile entertainment application offering seamless real-cash card games, slots, and quick tournaments with instant UPI payouts from ₹100.",
+    "features": [
+      "Sign Up Bonus ₹48 on Mobile Verification",
+      "Instant ₹100 Fast UPI & IMPS Withdrawals",
+      "Multiplayer 2-Player and 6-Player High-Speed Tables",
+      "End-to-End TLS 1.3 Encryption Security",
+      "Certified Random Shuffling (RNG) System"
+    ],
+    "specs": {
+      "Package Name": "com.diwarummywhl.app",
+      "Required Android": "6.0 (Marshmallow) or higher",
+      "Recommended RAM": "2 GB RAM or above",
+      "RNG Certification": "Certified Random Distribution",
+      "SSL Encryption": "TLS 1.3 Verified",
+      "App Category": "Rummy & Card Gaming"
+    },
+    "permissions": [
+      {
+        "name": "Internet Access",
+        "status": "Required",
+        "reason": "Live server synchronization."
+      },
+      {
+        "name": "Storage / Cache",
+        "status": "Required",
+        "reason": "Saves high-res card assets locally to save mobile data."
+      },
+      {
+        "name": "Contacts / SMS",
+        "status": "Not Requested",
+        "reason": "Full privacy maintained."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the minimum withdrawal for Diwa Rummy?",
+        "a": "The minimum withdrawal threshold in Diwa Rummy is ₹100 via verified UPI and direct bank transfer."
+      },
+      {
+        "q": "How can I claim the signup bonus in Diwa Rummy?",
+        "a": "Register with your mobile phone number and complete OTP verification to receive Sign Up Bonus ₹48 in your game wallet."
+      }
+    ],
+    "isAudited": true
+  },
+  {
+    "id": 15,
+    "serial": "04",
+    "rank": 4,
+    "name": "Max Rummy",
+    "slug": "max-rummy",
+    "category": "Rummy",
+    "subCategory": "Rummy / Real Cash",
+    "isNew": true,
+    "isFeatured": true,
+    "tag": "New 2026",
+    "badgeInfo": "Sign Up Bonus ₹599",
+    "thresholdInfo": "Min. Withdraw ₹100",
+    "bonus": "₹599",
+    "minimumWithdrawal": "₹100",
+    "downloadUrl": "https://www.maxrummy6.com/?code=QUMK98XTZGQ&t=1792160618",
+    "iconImg": "/apps/max-rummy.webp",
+    "status": "Active",
+    "rating": 4.8,
+    "reviewsCount": "229.0K",
+    "size": "32.0 MB",
+    "version": "v4.5.0 (2026 Edition)",
+    "lastUpdated": "August 2026",
+    "developer": "Max Interactive Studio",
+    "compatibility": "Android 6.0 & above",
+    "iconBg": "from-emerald-700 via-teal-800 to-[#082916]",
+    "iconText": "MAX",
+    "iconSubtext": "RUMMY",
+    "iconVariant": "spade",
+    "shortDesc": "Max Rummy App Free Bonus ₹599 ~ Online Gaming Platform Where All Users Get High Bonus & Many Slots, Jackpot Games Including Big Win, Big Reward, Daily Bonus & Tournaments. Download Now & Get High Bonus Including High Winnings. Max Rummy Is The Best Yono Earning App From The Yono Company Where You Can Play Any Yono Game. Play More Than 150+ Games & Withdraw Real Cash Via UPI.",
+    "overview": "Max Rummy is a premier mobile entertainment application offering seamless real-cash card games, slots, and quick tournaments with instant UPI payouts from ₹100.",
+    "features": [
+      "Sign Up Bonus ₹599 on Mobile Verification",
+      "Instant ₹100 Fast UPI & IMPS Withdrawals",
+      "Multiplayer 2-Player and 6-Player High-Speed Tables",
+      "End-to-End TLS 1.3 Encryption Security",
+      "Certified Random Shuffling (RNG) System"
+    ],
+    "specs": {
+      "Package Name": "com.maxrummy.app2026",
+      "Required Android": "6.0 (Marshmallow) or higher",
+      "Recommended RAM": "2 GB RAM or above",
+      "RNG Certification": "Certified Random Distribution",
+      "SSL Encryption": "TLS 1.3 Verified",
+      "App Category": "Rummy & Card Gaming"
+    },
+    "permissions": [
+      {
+        "name": "Internet Access",
+        "status": "Required",
+        "reason": "Live server synchronization."
+      },
+      {
+        "name": "Storage / Cache",
+        "status": "Required",
+        "reason": "Saves high-res card assets locally to save mobile data."
+      },
+      {
+        "name": "Contacts / SMS",
+        "status": "Not Requested",
+        "reason": "Full privacy maintained."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the minimum withdrawal for Max Rummy?",
+        "a": "The minimum withdrawal threshold in Max Rummy is ₹100 via verified UPI and direct bank transfer."
+      },
+      {
+        "q": "How can I claim the signup bonus in Max Rummy?",
+        "a": "Register with your mobile phone number and complete OTP verification to receive Sign Up Bonus ₹599 in your game wallet."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "serial": "05",
+    "rank": 5,
+    "name": "Gold Rummy",
+    "slug": "gold-rummy",
+    "category": "Rummy",
+    "subCategory": "Rummy / Real Cash",
+    "isNew": true,
+    "isFeatured": true,
+    "tag": "New 2026",
+    "badgeInfo": "Sign Up Bonus ₹500",
+    "thresholdInfo": "Min. Withdraw ₹100",
+    "bonus": "₹500",
+    "minimumWithdrawal": "₹100",
+    "downloadUrl": "https://goldrummy26.com/?code=JLX8QY4FJ5R&t=1792160772",
+    "iconImg": "/apps/gold-rummy.webp",
+    "status": "Active",
+    "rating": 4.5,
+    "reviewsCount": "246.0K",
+    "size": "35.0 MB",
+    "version": "v4.5.0 (2026 Edition)",
+    "lastUpdated": "August 2026",
+    "developer": "Gold Interactive Studio",
+    "compatibility": "Android 6.0 & above",
+    "iconBg": "from-emerald-700 via-teal-800 to-[#082916]",
+    "iconText": "GOLD",
+    "iconSubtext": "RUMMY",
+    "iconVariant": "spade",
+    "shortDesc": "Gold Rummy APK Download 2026 — Get ₹51 to ₹500 instant signup bonus. Play real cash rummy, pool rummy, points rummy. Fast UPI withdrawal. Install guide + FAQs.",
+    "overview": "Gold Rummy is a premier mobile entertainment application offering seamless real-cash card games, slots, and quick tournaments with instant UPI payouts from ₹100.",
+    "features": [
+      "Sign Up Bonus ₹500 on Mobile Verification",
+      "Instant ₹100 Fast UPI & IMPS Withdrawals",
+      "Multiplayer 2-Player and 6-Player High-Speed Tables",
+      "End-to-End TLS 1.3 Encryption Security",
+      "Certified Random Shuffling (RNG) System"
+    ],
+    "specs": {
+      "Package Name": "com.goldrummy.app2026",
+      "Required Android": "6.0 (Marshmallow) or higher",
+      "Recommended RAM": "2 GB RAM or above",
+      "RNG Certification": "Certified Random Distribution",
+      "SSL Encryption": "TLS 1.3 Verified",
+      "App Category": "Rummy & Card Gaming"
+    },
+    "permissions": [
+      {
+        "name": "Internet Access",
+        "status": "Required",
+        "reason": "Live server synchronization."
+      },
+      {
+        "name": "Storage / Cache",
+        "status": "Required",
+        "reason": "Saves high-res card assets locally to save mobile data."
+      },
+      {
+        "name": "Contacts / SMS",
+        "status": "Not Requested",
+        "reason": "Full privacy maintained."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the minimum withdrawal for Gold Rummy?",
+        "a": "The minimum withdrawal threshold in Gold Rummy is ₹100 via verified UPI and direct bank transfer."
+      },
+      {
+        "q": "How can I claim the signup bonus in Gold Rummy?",
+        "a": "Register with your mobile phone number and complete OTP verification to receive Sign Up Bonus ₹500 in your game wallet."
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "serial": "06",
+    "rank": 6,
+    "name": "VIP Rummy",
+    "slug": "vip-rummy",
+    "category": "Rummy",
+    "subCategory": "Rummy / Real Cash",
+    "isNew": true,
+    "isFeatured": true,
+    "tag": "New 2026",
+    "badgeInfo": "Sign Up Bonus ₹51",
+    "thresholdInfo": "Min. Withdraw ₹100",
+    "bonus": "₹51",
+    "minimumWithdrawal": "₹100",
+    "downloadUrl": "https://viprummy5.com/?code=XSDU7HCN6AB&t=1792487501",
+    "iconImg": "/apps/vip-rummy.webp",
+    "status": "Active",
+    "rating": 4.8,
+    "reviewsCount": "164.0K",
+    "size": "34.0 MB",
+    "version": "v4.5.0 (2026 Edition)",
+    "lastUpdated": "November 2026",
+    "developer": "VIP Interactive Studio",
+    "compatibility": "Android 6.0 & above",
+    "iconBg": "from-amber-600 via-yellow-600 to-amber-900",
+    "iconText": "VIP",
+    "iconSubtext": "RUMMY",
+    "iconVariant": "vip",
+    "shortDesc": "Download VIP Rummy APK to experience premium high-speed rummy tables, VIP club rewards, and instant ₹100 UPI cashouts.",
+    "overview": "VIP Rummy is a premier mobile entertainment application offering seamless real-cash card games, slots, and quick tournaments with instant UPI payouts from ₹100.",
+    "features": [
+      "Sign Up Bonus ₹51 on Mobile Verification",
+      "Instant ₹100 Fast UPI & IMPS Withdrawals",
+      "Multiplayer 2-Player and 6-Player High-Speed Tables",
+      "End-to-End TLS 1.3 Encryption Security",
+      "Certified Random Shuffling (RNG) System"
+    ],
+    "specs": {
+      "Package Name": "com.viprummy.app2026",
+      "Required Android": "6.0 (Marshmallow) or higher",
+      "Recommended RAM": "2 GB RAM or above",
+      "RNG Certification": "Certified Random Distribution",
+      "SSL Encryption": "TLS 1.3 Verified",
+      "App Category": "Rummy & Card Gaming"
+    },
+    "permissions": [
+      {
+        "name": "Internet Access",
+        "status": "Required",
+        "reason": "Live server synchronization."
+      },
+      {
+        "name": "Storage / Cache",
+        "status": "Required",
+        "reason": "Saves high-res card assets locally to save mobile data."
+      },
+      {
+        "name": "Contacts / SMS",
+        "status": "Not Requested",
+        "reason": "Full privacy maintained."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the minimum withdrawal for VIP Rummy?",
+        "a": "The minimum withdrawal threshold in VIP Rummy is ₹100 via verified UPI and direct bank transfer."
+      },
+      {
+        "q": "How can I claim the signup bonus in VIP Rummy?",
+        "a": "Register with your mobile phone number and complete OTP verification to receive Sign Up Bonus ₹51 in your game wallet."
+      }
+    ],
+    "isAudited": true
+  },
+  {
     "id": 63,
-    "serial": "00",
+    "serial": "07",
     "name": "Rummy Zip",
     "slug": "rummy-zip",
     "category": "Rummy",
@@ -39,11 +487,12 @@ export const APPS_DATA = [
     },
     "permissions": [],
     "faqs": [],
-    "isAudited": false
+    "isAudited": false,
+    "rank": 7
   },
   {
     "id": 64,
-    "serial": "00",
+    "serial": "08",
     "name": "Diwa Luck",
     "slug": "diwa-luck",
     "category": "Gaming",
@@ -81,12 +530,13 @@ export const APPS_DATA = [
     },
     "permissions": [],
     "faqs": [],
-    "isAudited": false
+    "isAudited": false,
+    "rank": 8
   },
   {
     "id": 1,
-    "serial": "01",
-    "rank": 1,
+    "serial": "09",
+    "rank": 9,
     "name": "Maha Game",
     "slug": "maha-games",
     "category": "Gaming",
@@ -159,8 +609,8 @@ export const APPS_DATA = [
   },
   {
     "id": 2,
-    "serial": "02",
-    "rank": 2,
+    "serial": "10",
+    "rank": 10,
     "name": "Jai Ho Rummy",
     "slug": "hi-rummy",
     "category": "Rummy",
@@ -233,8 +683,8 @@ export const APPS_DATA = [
   },
   {
     "id": 3,
-    "serial": "03",
-    "rank": 3,
+    "serial": "11",
+    "rank": 11,
     "name": "JaiHo Win",
     "slug": "jaiho-win",
     "category": "Gaming",
@@ -307,8 +757,8 @@ export const APPS_DATA = [
   },
   {
     "id": 4,
-    "serial": "04",
-    "rank": 4,
+    "serial": "12",
+    "rank": 12,
     "name": "Rumble Rummy",
     "slug": "rumble-rummy",
     "category": "Rummy",
@@ -381,8 +831,8 @@ export const APPS_DATA = [
   },
   {
     "id": 5,
-    "serial": "05",
-    "rank": 5,
+    "serial": "13",
+    "rank": 13,
     "name": "Love Rummy",
     "slug": "love-rummy",
     "category": "Rummy",
@@ -455,8 +905,8 @@ export const APPS_DATA = [
   },
   {
     "id": 6,
-    "serial": "06",
-    "rank": 6,
+    "serial": "14",
+    "rank": 14,
     "name": "Share Slots",
     "slug": "share-slots",
     "category": "Slots",
@@ -529,8 +979,8 @@ export const APPS_DATA = [
   },
   {
     "id": 7,
-    "serial": "07",
-    "rank": 7,
+    "serial": "15",
+    "rank": 15,
     "name": "Club INR",
     "slug": "club-inr",
     "category": "Gaming",
@@ -603,8 +1053,8 @@ export const APPS_DATA = [
   },
   {
     "id": 8,
-    "serial": "08",
-    "rank": 8,
+    "serial": "16",
+    "rank": 16,
     "name": "Game Rummy",
     "slug": "game-rummy",
     "category": "Rummy",
@@ -677,8 +1127,8 @@ export const APPS_DATA = [
   },
   {
     "id": 9,
-    "serial": "09",
-    "rank": 9,
+    "serial": "17",
+    "rank": 17,
     "name": "Dhan Game",
     "slug": "dhan-game",
     "category": "Gaming",
@@ -751,8 +1201,8 @@ export const APPS_DATA = [
   },
   {
     "id": 10,
-    "serial": "10",
-    "rank": 10,
+    "serial": "18",
+    "rank": 18,
     "name": "Rummy 77",
     "slug": "rummy-77",
     "category": "Rummy",
@@ -825,8 +1275,8 @@ export const APPS_DATA = [
   },
   {
     "id": 11,
-    "serial": "11",
-    "rank": 11,
+    "serial": "19",
+    "rank": 19,
     "name": "Rummy Ludo",
     "slug": "rummy-ludo",
     "category": "Rummy",
@@ -899,8 +1349,8 @@ export const APPS_DATA = [
   },
   {
     "id": 12,
-    "serial": "12",
-    "rank": 12,
+    "serial": "20",
+    "rank": 20,
     "name": "Hindi 777",
     "slug": "hindi-777",
     "category": "Spin",
@@ -973,8 +1423,8 @@ export const APPS_DATA = [
   },
   {
     "id": 13,
-    "serial": "13",
-    "rank": 13,
+    "serial": "21",
+    "rank": 21,
     "name": "Boss Rummy",
     "slug": "boss-rummy",
     "category": "Rummy",
@@ -1047,8 +1497,8 @@ export const APPS_DATA = [
   },
   {
     "id": 14,
-    "serial": "14",
-    "rank": 14,
+    "serial": "22",
+    "rank": 22,
     "name": "Rummy 888",
     "slug": "rummy-888",
     "category": "Rummy",
@@ -1120,83 +1570,9 @@ export const APPS_DATA = [
     ]
   },
   {
-    "id": 15,
-    "serial": "15",
-    "rank": 15,
-    "name": "Max Rummy",
-    "slug": "max-rummy",
-    "category": "Rummy",
-    "subCategory": "Rummy / Real Cash",
-    "isNew": true,
-    "isFeatured": true,
-    "tag": "New 2026",
-    "badgeInfo": "Sign Up Bonus ₹599",
-    "thresholdInfo": "Min. Withdraw ₹100",
-    "bonus": "₹599",
-    "minimumWithdrawal": "₹100",
-    "downloadUrl": "https://www.maxrummy6.com/?code=QUMK98XTZGQ&t=1788108745",
-    "iconImg": "https://allnewyonoapps.com/maxrummy-logo.webp",
-    "status": "Active",
-    "rating": 4.8,
-    "reviewsCount": "229.0K",
-    "size": "32.0 MB",
-    "version": "v4.5.0 (2026 Edition)",
-    "lastUpdated": "August 2026",
-    "developer": "Max Interactive Studio",
-    "compatibility": "Android 6.0 & above",
-    "iconBg": "from-emerald-700 via-teal-800 to-[#082916]",
-    "iconText": "MAX",
-    "iconSubtext": "RUMMY",
-    "iconVariant": "spade",
-    "shortDesc": "Max Rummy App Free Bonus ₹599 ~ Online Gaming Platform Where All Users Get High Bonus & Many Slots, Jackpot Games Including Big Win, Big Reward, Daily Bonus & Tournaments. Download Now & Get High Bonus Including High Winnings. Max Rummy Is The Best Yono Earning App From The Yono Company Where You Can Play Any Yono Game. Play More Than 150+ Games & Withdraw Real Cash Via UPI.",
-    "overview": "Max Rummy is a premier mobile entertainment application offering seamless real-cash card games, slots, and quick tournaments with instant UPI payouts from ₹100.",
-    "features": [
-      "Sign Up Bonus ₹599 on Mobile Verification",
-      "Instant ₹100 Fast UPI & IMPS Withdrawals",
-      "Multiplayer 2-Player and 6-Player High-Speed Tables",
-      "End-to-End TLS 1.3 Encryption Security",
-      "Certified Random Shuffling (RNG) System"
-    ],
-    "specs": {
-      "Package Name": "com.maxrummy.app2026",
-      "Required Android": "6.0 (Marshmallow) or higher",
-      "Recommended RAM": "2 GB RAM or above",
-      "RNG Certification": "Certified Random Distribution",
-      "SSL Encryption": "TLS 1.3 Verified",
-      "App Category": "Rummy & Card Gaming"
-    },
-    "permissions": [
-      {
-        "name": "Internet Access",
-        "status": "Required",
-        "reason": "Live server synchronization."
-      },
-      {
-        "name": "Storage / Cache",
-        "status": "Required",
-        "reason": "Saves high-res card assets locally to save mobile data."
-      },
-      {
-        "name": "Contacts / SMS",
-        "status": "Not Requested",
-        "reason": "Full privacy maintained."
-      }
-    ],
-    "faqs": [
-      {
-        "q": "What is the minimum withdrawal for Max Rummy?",
-        "a": "The minimum withdrawal threshold in Max Rummy is ₹100 via verified UPI and direct bank transfer."
-      },
-      {
-        "q": "How can I claim the signup bonus in Max Rummy?",
-        "a": "Register with your mobile phone number and complete OTP verification to receive Sign Up Bonus ₹599 in your game wallet."
-      }
-    ]
-  },
-  {
     "id": 16,
-    "serial": "16",
-    "rank": 16,
+    "serial": "23",
+    "rank": 23,
     "name": "Joy Rummy",
     "slug": "joy-rummy",
     "category": "Rummy",
@@ -1269,8 +1645,8 @@ export const APPS_DATA = [
   },
   {
     "id": 17,
-    "serial": "17",
-    "rank": 17,
+    "serial": "24",
+    "rank": 24,
     "name": "INR Rummy",
     "slug": "inr-rummy",
     "category": "Rummy",
@@ -1343,8 +1719,8 @@ export const APPS_DATA = [
   },
   {
     "id": 18,
-    "serial": "18",
-    "rank": 18,
+    "serial": "25",
+    "rank": 25,
     "name": "JaiHo 91",
     "slug": "jaiho-91",
     "category": "Gaming",
@@ -1417,8 +1793,8 @@ export const APPS_DATA = [
   },
   {
     "id": 19,
-    "serial": "19",
-    "rank": 19,
+    "serial": "26",
+    "rank": 26,
     "name": "Diwa Slots",
     "slug": "diwa-slots",
     "category": "Slots",
@@ -1491,8 +1867,8 @@ export const APPS_DATA = [
   },
   {
     "id": 20,
-    "serial": "20",
-    "rank": 20,
+    "serial": "27",
+    "rank": 27,
     "name": "Good Slots",
     "slug": "good-slots",
     "category": "Slots",
@@ -1565,8 +1941,8 @@ export const APPS_DATA = [
   },
   {
     "id": 21,
-    "serial": "21",
-    "rank": 21,
+    "serial": "28",
+    "rank": 28,
     "name": "Diwa Top",
     "slug": "diwa-top",
     "category": "Gaming",
@@ -1639,8 +2015,8 @@ export const APPS_DATA = [
   },
   {
     "id": 22,
-    "serial": "22",
-    "rank": 22,
+    "serial": "29",
+    "rank": 29,
     "name": "Diwa Win",
     "slug": "diwa-win",
     "category": "Gaming",
@@ -1713,8 +2089,8 @@ export const APPS_DATA = [
   },
   {
     "id": 23,
-    "serial": "23",
-    "rank": 23,
+    "serial": "30",
+    "rank": 30,
     "name": "Diwa VIP",
     "slug": "diwa-vip",
     "category": "Gaming",
@@ -1786,83 +2162,9 @@ export const APPS_DATA = [
     ]
   },
   {
-    "id": 24,
-    "serial": "24",
-    "rank": 24,
-    "name": "Gold Rummy",
-    "slug": "gold-rummy",
-    "category": "Rummy",
-    "subCategory": "Rummy / Real Cash",
-    "isNew": true,
-    "isFeatured": false,
-    "tag": "New 2026",
-    "badgeInfo": "Sign Up Bonus ₹500",
-    "thresholdInfo": "Min. Withdraw ₹100",
-    "bonus": "₹500",
-    "minimumWithdrawal": "₹100",
-    "downloadUrl": "https://goldrummy26.com/?code=JLX8QY4FJ5R&t=1788116485",
-    "iconImg": "https://allnewyonoapps.com/Gold-Rummy.webp",
-    "status": "Active",
-    "rating": 4.5,
-    "reviewsCount": "246.0K",
-    "size": "35.0 MB",
-    "version": "v4.5.0 (2026 Edition)",
-    "lastUpdated": "August 2026",
-    "developer": "Gold Interactive Studio",
-    "compatibility": "Android 6.0 & above",
-    "iconBg": "from-emerald-700 via-teal-800 to-[#082916]",
-    "iconText": "GOLD",
-    "iconSubtext": "RUMMY",
-    "iconVariant": "spade",
-    "shortDesc": "Gold Rummy APK Download 2026 — Get ₹51 to ₹500 instant signup bonus. Play real cash rummy, pool rummy, points rummy. Fast UPI withdrawal. Install guide + FAQs.",
-    "overview": "Gold Rummy is a premier mobile entertainment application offering seamless real-cash card games, slots, and quick tournaments with instant UPI payouts from ₹100.",
-    "features": [
-      "Sign Up Bonus ₹500 on Mobile Verification",
-      "Instant ₹100 Fast UPI & IMPS Withdrawals",
-      "Multiplayer 2-Player and 6-Player High-Speed Tables",
-      "End-to-End TLS 1.3 Encryption Security",
-      "Certified Random Shuffling (RNG) System"
-    ],
-    "specs": {
-      "Package Name": "com.goldrummy.app2026",
-      "Required Android": "6.0 (Marshmallow) or higher",
-      "Recommended RAM": "2 GB RAM or above",
-      "RNG Certification": "Certified Random Distribution",
-      "SSL Encryption": "TLS 1.3 Verified",
-      "App Category": "Rummy & Card Gaming"
-    },
-    "permissions": [
-      {
-        "name": "Internet Access",
-        "status": "Required",
-        "reason": "Live server synchronization."
-      },
-      {
-        "name": "Storage / Cache",
-        "status": "Required",
-        "reason": "Saves high-res card assets locally to save mobile data."
-      },
-      {
-        "name": "Contacts / SMS",
-        "status": "Not Requested",
-        "reason": "Full privacy maintained."
-      }
-    ],
-    "faqs": [
-      {
-        "q": "What is the minimum withdrawal for Gold Rummy?",
-        "a": "The minimum withdrawal threshold in Gold Rummy is ₹100 via verified UPI and direct bank transfer."
-      },
-      {
-        "q": "How can I claim the signup bonus in Gold Rummy?",
-        "a": "Register with your mobile phone number and complete OTP verification to receive Sign Up Bonus ₹500 in your game wallet."
-      }
-    ]
-  },
-  {
     "id": 25,
-    "serial": "25",
-    "rank": 25,
+    "serial": "31",
+    "rank": 31,
     "name": "Diwa X",
     "slug": "diwa-x",
     "category": "Gaming",
@@ -1935,8 +2237,8 @@ export const APPS_DATA = [
   },
   {
     "id": 26,
-    "serial": "26",
-    "rank": 26,
+    "serial": "32",
+    "rank": 32,
     "name": "Win Rummy",
     "slug": "win-rummy",
     "category": "Rummy",
@@ -2009,8 +2311,8 @@ export const APPS_DATA = [
   },
   {
     "id": 27,
-    "serial": "27",
-    "rank": 27,
+    "serial": "33",
+    "rank": 33,
     "name": "Yono VIP",
     "slug": "yono-vip",
     "category": "Gaming",
@@ -2083,8 +2385,8 @@ export const APPS_DATA = [
   },
   {
     "id": 28,
-    "serial": "28",
-    "rank": 28,
+    "serial": "34",
+    "rank": 34,
     "name": "Spin Winner",
     "slug": "spin-winner",
     "category": "Spin",
@@ -2157,8 +2459,8 @@ export const APPS_DATA = [
   },
   {
     "id": 29,
-    "serial": "29",
-    "rank": 29,
+    "serial": "35",
+    "rank": 35,
     "name": "Yono Arcade",
     "slug": "yono-arcade",
     "category": "Arcade",
@@ -2231,8 +2533,8 @@ export const APPS_DATA = [
   },
   {
     "id": 30,
-    "serial": "30",
-    "rank": 30,
+    "serial": "36",
+    "rank": 36,
     "name": "Yono Game",
     "slug": "yono-game",
     "category": "Gaming",
@@ -2305,8 +2607,8 @@ export const APPS_DATA = [
   },
   {
     "id": 31,
-    "serial": "31",
-    "rank": 31,
+    "serial": "37",
+    "rank": 37,
     "name": "Yono 777",
     "slug": "yono-777",
     "category": "Spin",
@@ -2379,8 +2681,8 @@ export const APPS_DATA = [
   },
   {
     "id": 32,
-    "serial": "32",
-    "rank": 32,
+    "serial": "38",
+    "rank": 38,
     "name": "Yono Rummy",
     "slug": "yono-rummy",
     "category": "Rummy",
@@ -2453,8 +2755,8 @@ export const APPS_DATA = [
   },
   {
     "id": 33,
-    "serial": "33",
-    "rank": 33,
+    "serial": "39",
+    "rank": 39,
     "name": "567 Slots",
     "slug": "567-slots",
     "category": "Slots",
@@ -2527,8 +2829,8 @@ export const APPS_DATA = [
   },
   {
     "id": 34,
-    "serial": "34",
-    "rank": 34,
+    "serial": "40",
+    "rank": 40,
     "name": "Spin Crush",
     "slug": "spin-crush",
     "category": "Spin",
@@ -2601,8 +2903,8 @@ export const APPS_DATA = [
   },
   {
     "id": 35,
-    "serial": "35",
-    "rank": 35,
+    "serial": "41",
+    "rank": 41,
     "name": "Spin 101",
     "slug": "spin101",
     "category": "Spin",
@@ -2675,8 +2977,8 @@ export const APPS_DATA = [
   },
   {
     "id": 36,
-    "serial": "36",
-    "rank": 36,
+    "serial": "42",
+    "rank": 42,
     "name": "Spin 777",
     "slug": "spin-777",
     "category": "Spin",
@@ -2749,8 +3051,8 @@ export const APPS_DATA = [
   },
   {
     "id": 37,
-    "serial": "37",
-    "rank": 37,
+    "serial": "43",
+    "rank": 43,
     "name": "Spin Gold",
     "slug": "spin-gold",
     "category": "Spin",
@@ -2823,8 +3125,8 @@ export const APPS_DATA = [
   },
   {
     "id": 38,
-    "serial": "38",
-    "rank": 38,
+    "serial": "44",
+    "rank": 44,
     "name": "IND Slots",
     "slug": "ind-slots",
     "category": "Slots",
@@ -2897,8 +3199,8 @@ export const APPS_DATA = [
   },
   {
     "id": 39,
-    "serial": "39",
-    "rank": 39,
+    "serial": "45",
+    "rank": 45,
     "name": "Neta VIP",
     "slug": "neta-vip",
     "category": "Gaming",
@@ -2971,8 +3273,8 @@ export const APPS_DATA = [
   },
   {
     "id": 40,
-    "serial": "40",
-    "rank": 40,
+    "serial": "46",
+    "rank": 46,
     "name": "MBM Bet",
     "slug": "mbm-bet",
     "category": "Gaming",
@@ -3045,8 +3347,8 @@ export const APPS_DATA = [
   },
   {
     "id": 41,
-    "serial": "41",
-    "rank": 41,
+    "serial": "47",
+    "rank": 47,
     "name": "Bingo 101",
     "slug": "bingo-101",
     "category": "Bingo",
@@ -3119,8 +3421,8 @@ export const APPS_DATA = [
   },
   {
     "id": 42,
-    "serial": "42",
-    "rank": 42,
+    "serial": "48",
+    "rank": 48,
     "name": "789 Jackpot",
     "slug": "789-jackpot",
     "category": "Spin",
@@ -3193,8 +3495,8 @@ export const APPS_DATA = [
   },
   {
     "id": 43,
-    "serial": "43",
-    "rank": 43,
+    "serial": "49",
+    "rank": 49,
     "name": "Rummy 91",
     "slug": "rummy-91",
     "category": "Rummy",
@@ -3267,8 +3569,8 @@ export const APPS_DATA = [
   },
   {
     "id": 44,
-    "serial": "44",
-    "rank": 44,
+    "serial": "50",
+    "rank": 50,
     "name": "JaiHo Spin",
     "slug": "jaiho-spin",
     "category": "Spin",
@@ -3341,8 +3643,8 @@ export const APPS_DATA = [
   },
   {
     "id": 45,
-    "serial": "45",
-    "rank": 45,
+    "serial": "51",
+    "rank": 51,
     "name": "JaiHo Arcade",
     "slug": "jaiho-arcade",
     "category": "Arcade",
@@ -3415,8 +3717,8 @@ export const APPS_DATA = [
   },
   {
     "id": 46,
-    "serial": "46",
-    "rank": 46,
+    "serial": "52",
+    "rank": 52,
     "name": "ABC Rummy",
     "slug": "abc-rummy",
     "category": "Rummy",
@@ -3489,8 +3791,8 @@ export const APPS_DATA = [
   },
   {
     "id": 47,
-    "serial": "47",
-    "rank": 47,
+    "serial": "53",
+    "rank": 53,
     "name": "JaiHo Rummy",
     "slug": "jaiho-rummy",
     "category": "Rummy",
@@ -3563,8 +3865,8 @@ export const APPS_DATA = [
   },
   {
     "id": 48,
-    "serial": "48",
-    "rank": 48,
+    "serial": "54",
+    "rank": 54,
     "name": "JaiHo 777",
     "slug": "jaiho-777",
     "category": "Spin",
@@ -3637,8 +3939,8 @@ export const APPS_DATA = [
   },
   {
     "id": 49,
-    "serial": "49",
-    "rank": 49,
+    "serial": "55",
+    "rank": 55,
     "name": "MQM Bet",
     "slug": "mqm-bet",
     "category": "Gaming",
@@ -3711,8 +4013,8 @@ export const APPS_DATA = [
   },
   {
     "id": 50,
-    "serial": "50",
-    "rank": 50,
+    "serial": "56",
+    "rank": 56,
     "name": "YN 777",
     "slug": "yn777",
     "category": "Spin",
@@ -3785,8 +4087,8 @@ export const APPS_DATA = [
   },
   {
     "id": 51,
-    "serial": "51",
-    "rank": 51,
+    "serial": "57",
+    "rank": 57,
     "name": "Bet 213",
     "slug": "bet213",
     "category": "Gaming",
@@ -3859,8 +4161,8 @@ export const APPS_DATA = [
   },
   {
     "id": 52,
-    "serial": "52",
-    "rank": 52,
+    "serial": "58",
+    "rank": 58,
     "name": "Saga Slots",
     "slug": "saga-slots",
     "category": "Slots",
@@ -3933,8 +4235,8 @@ export const APPS_DATA = [
   },
   {
     "id": 53,
-    "serial": "53",
-    "rank": 53,
+    "serial": "59",
+    "rank": 59,
     "name": "IND Club",
     "slug": "ind-club",
     "category": "Gaming",
@@ -4007,8 +4309,8 @@ export const APPS_DATA = [
   },
   {
     "id": 54,
-    "serial": "54",
-    "rank": 54,
+    "serial": "60",
+    "rank": 60,
     "name": "Ind Rummy",
     "slug": "ind-rummy",
     "category": "Rummy",
@@ -4081,8 +4383,8 @@ export const APPS_DATA = [
   },
   {
     "id": 55,
-    "serial": "55",
-    "rank": 55,
+    "serial": "61",
+    "rank": 61,
     "name": "JaiHo Slots",
     "slug": "jaiho-slots",
     "category": "Slots",
@@ -4155,8 +4457,8 @@ export const APPS_DATA = [
   },
   {
     "id": 56,
-    "serial": "56",
-    "rank": 56,
+    "serial": "62",
+    "rank": 62,
     "name": "Raja Luck",
     "slug": "raja-luck",
     "category": "Spin",
@@ -4229,8 +4531,8 @@ export const APPS_DATA = [
   },
   {
     "id": 57,
-    "serial": "57",
-    "rank": 57,
+    "serial": "63",
+    "rank": 63,
     "name": "Money Rummy",
     "slug": "money-rummy",
     "category": "Rummy",
@@ -4303,8 +4605,8 @@ export const APPS_DATA = [
   },
   {
     "id": 58,
-    "serial": "58",
-    "rank": 58,
+    "serial": "64",
+    "rank": 64,
     "name": "Diwa Play",
     "slug": "diwa-play",
     "category": "Gaming",
@@ -4377,8 +4679,8 @@ export const APPS_DATA = [
   },
   {
     "id": 59,
-    "serial": "59",
-    "rank": 59,
+    "serial": "65",
+    "rank": 65,
     "name": "Top Rummy",
     "slug": "top-rummy",
     "category": "Rummy",
@@ -4451,8 +4753,8 @@ export const APPS_DATA = [
   },
   {
     "id": 60,
-    "serial": "60",
-    "rank": 60,
+    "serial": "66",
+    "rank": 66,
     "name": "Neta VIP",
     "slug": "neta-vip-app",
     "category": "Gaming",
@@ -4525,8 +4827,8 @@ export const APPS_DATA = [
   },
   {
     "id": 61,
-    "serial": "61",
-    "rank": 61,
+    "serial": "67",
+    "rank": 67,
     "name": "Slot Spin",
     "slug": "slot-spin",
     "category": "Slots",
@@ -4599,8 +4901,8 @@ export const APPS_DATA = [
   },
   {
     "id": 62,
-    "serial": "62",
-    "rank": 62,
+    "serial": "68",
+    "rank": 68,
     "name": "OK Rummy",
     "slug": "ok-rummy",
     "category": "Rummy",
@@ -4677,17 +4979,17 @@ export const CATEGORIES = [
   {
     "id": "all",
     "label": "ALL APPS",
-    "count": 62
+    "count": 68
   },
   {
     "id": "new",
     "label": "NEW APPS",
-    "count": 37
+    "count": 43
   },
   {
     "id": "rummy",
     "label": "RUMMY",
-    "count": 21
+    "count": 24
   },
   {
     "id": "slots",
@@ -4712,6 +5014,6 @@ export const CATEGORIES = [
   {
     "id": "gaming",
     "label": "GAMING",
-    "count": 18
+    "count": 21
   }
 ];

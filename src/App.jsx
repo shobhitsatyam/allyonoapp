@@ -5,7 +5,7 @@ import Footer from './components/common/Footer';
 import TelegramModal from './components/common/TelegramModal';
 import TelegramFloatingWidget from './components/common/TelegramFloatingWidget';
 import ScrollToTop from './components/common/ScrollToTop';
-import MaintenancePage from './components/common/MaintenancePage';
+
 
 // Pages
 import HomePage from './pages/HomePage';
@@ -25,13 +25,6 @@ import NotFoundPage from './pages/NotFoundPage';
 
 export default function App() {
   const [telegramOpen, setTelegramOpen] = useState(false);
-
-  // Central toggle for temporary availability / maintenance mode
-  const isMaintenanceMode = import.meta.env.VITE_MAINTENANCE_MODE === 'true';
-
-  if (isMaintenanceMode) {
-    return <MaintenancePage />;
-  }
 
   return (
     <div className="flex flex-col min-h-screen bg-white text-black font-sans selection:bg-gold selection:text-black">
